@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Drawn by Useddenim -->
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+<title>BICYCLE</title>
+ <g stroke="green" stroke-width="30" fill="none">
+  <path d="M 95,312.5 L 160,107.5 H 217.5" />
+  <path d="M 272.5,150 H 360" />
+  <path d="M 140,172.5 H 325 L 405,312.5 H 272.5 L 132.5,210" />
+  <path d="M 325,172.5 L 272.5,312.5 V 360 H 305" />
+  <circle cx="95" cy="312.5" r="80" />
+  <circle cx="405" cy="312.5" r="80" />
+  <circle cx="95" cy="312.5" r="7.5" />
+  <circle cx="405" cy="312.5" r="7.5" />
+  <circle cx="272.5" cy="312.5" r="15" />
+ </g>
+</svg>
