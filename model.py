@@ -1,14 +1,3 @@
-'''
-Sugarscape Constant Growback Model
-================================
-
-Replication of the model found in Netlogo:
-Li, J. and Wilensky, U. (2009). NetLogo Sugarscape 2 Constant Growback model.
-http://ccl.northwestern.edu/netlogo/models/Sugarscape2ConstantGrowback.
-Center for Connected Learning and Computer-Based Modeling,
-Northwestern University, Evanston, IL.
-'''
-
 from mesa import Model
 from mesa.space import MultiGrid
 from mesa.datacollection import DataCollector
@@ -18,19 +7,10 @@ from schedule import RandomActivationByBreed
 
 
 class BikePath(Model):
-    '''
-    Sugarscape 2 Constant Growback
-    '''
 
     verbose = True  # Print-monitoring
 
     def __init__(self, height=50, width=50, num_bikes=100, num_riders=10):
-        '''
-        Create a new Constant Growback model with the given parameters.
-
-        Args:
-            initial_population: Number of population to start with
-        '''
 
         # Set parameters
         self.height = height
