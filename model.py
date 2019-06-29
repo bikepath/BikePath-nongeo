@@ -1,5 +1,5 @@
 from mesa import Model
-from mesa.space import MultiGrid
+from mesa.space import ContinuousSpace
 from mesa.datacollection import DataCollector
 
 from agents import Rider, Station, Bike
@@ -19,7 +19,7 @@ class BikePath(Model):
         self.num_riders = num_riders
 
         self.schedule = RandomActivationByBreed(self)
-        self.grid = MultiGrid(self.height, self.width, torus=False) #should this be a network grid or a continuousspace?
+        self.grid = ContinuousSpace(self.height, self.width, torus=False) #should this be a network grid or a continuousspace?
         self.datacollector = DataCollector({"Rider": lambda m: m.schedule.get_breed_count(Rider), })
 
         self.stations = {}
