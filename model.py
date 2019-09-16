@@ -11,7 +11,6 @@ class BikePath(Model):
     verbose = True  # Print-monitoring
 
     def __init__(self, height=50, width=50, num_bikes=100, num_riders=10):
-
         # Set parameters
         self.height = height
         self.width = width
@@ -25,8 +24,19 @@ class BikePath(Model):
         self.stations = {}
         self.missed_rides = 0
 
-        # Create station
+        # Create stations
+        self.createStations()
 
+        # Create riders:
+        self.createRiders()
+
+        # Create bikes:
+        self.createBikes()
+
+        self.running = True
+        self.datacollector.collect(self)
+
+    def createStations(self):
         for i in range(10):
 
             x = self.random.randrange(self.width)
@@ -44,7 +54,7 @@ class BikePath(Model):
             self.grid.place_agent(s, (x, y))
             # self.schedule.add(s) # Why would stations need to be on the schedule?
 
-        # Create riders:
+    def createRiders(self):
         stations = list(self.stations.values())
 
         for i in range(self.num_riders):
@@ -63,7 +73,7 @@ class BikePath(Model):
             self.grid.place_agent(r, p)
             self.schedule.add(r)
 
-        # Create bikes:
+    def createBikes(self):
         for i in range(self.num_bikes):
 
             # pos, model, cur_station
@@ -80,9 +90,6 @@ class BikePath(Model):
 
             self.grid.place_agent(b, p)
             self.schedule.add(b)
-
-        self.running = True
-        self.datacollector.collect(self)
 
     def step(self):
         self.schedule.step()
