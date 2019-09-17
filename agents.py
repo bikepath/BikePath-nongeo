@@ -2,8 +2,9 @@ import math
 
 from mesa import Agent
 
+
 class Rider(Agent):
-    def __init__(self, pos, model, start_station, destination, start_time, end_time, bike = None):
+    def __init__(self, pos, model, start_station, destination, start_time, end_time, bike=None):
         super().__init__(pos, model)
         self.pos = pos
         self.start_station = start_station

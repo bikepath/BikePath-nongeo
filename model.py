@@ -1,6 +1,7 @@
 from mesa import Model
-from mesa.space import MultiGrid
+from mesa.space import NetworkGrid
 from mesa.datacollection import DataCollector
+import osmnx as ox
 
 from agents import Rider, Station, Bike
 from schedule import RandomActivationByBreed
@@ -10,7 +11,7 @@ class BikePath(Model):
 
     verbose = True  # Print-monitoring
 
-    def __init__(self, height=50, width=50, num_bikes=100, num_riders=10):
+    def __init__(self, height=50, width=50, num_bikes=100, num_riders=10, place='Quincy, Massachusetts, USA'):
         # Set parameters
         self.height = height
         self.width = width
@@ -18,20 +19,26 @@ class BikePath(Model):
         self.num_riders = num_riders
 
         self.schedule = RandomActivationByBreed(self)
-        self.grid = MultiGrid(self.height, self.width, torus=False) #should this be a network grid or a continuousspace?
+
+        if 'Quincy' in place:
+            self.G = ox.graph_from_file('data/quincy.osm')
+        else:
+            self.G = ox.graph_from_place(place, network_type='bike')
+
+        self.grid = NetworkGrid(self.G)
         self.datacollector = DataCollector({"Rider": lambda m: m.schedule.get_breed_count(Rider), })
 
         self.stations = {}
         self.missed_rides = 0
 
         # Create stations
-        self.createStations()
+        # self.createStations()
 
-        # Create riders:
-        self.createRiders()
+        # # Create riders:
+        # self.createRiders()
 
-        # Create bikes:
-        self.createBikes()
+        # # Create bikes:
+        # self.createBikes()
 
         self.running = True
         self.datacollector.collect(self)
