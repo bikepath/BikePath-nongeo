@@ -1,9 +1,11 @@
 from mesa import Model
-from mesa.space import MultiGrid
+from mesa.space import NetworkGrid
 from mesa.datacollection import DataCollector
 
 from agents import Rider, Station, Bike
 from schedule import RandomActivationByBreed
+
+import networkx as nx
 
 
 class BikePath(Model):
@@ -18,7 +20,8 @@ class BikePath(Model):
         self.num_riders = num_riders
 
         self.schedule = RandomActivationByBreed(self)
-        self.grid = MultiGrid(self.height, self.width, torus=False) #should this be a network grid or a continuousspace?
+        self.G = nx.fast_gnp_random_graph(n=20, p=0.2)  # replace with osmnx
+        self.grid = NetworkGrid(self.G)
         self.datacollector = DataCollector({"Rider": lambda m: m.schedule.get_breed_count(Rider), })
 
         self.stations = {}
@@ -30,28 +33,23 @@ class BikePath(Model):
         # Create riders:
         self.createRiders()
 
-        # Create bikes:
-        self.createBikes()
+        # # Create bikes:
+        # self.createBikes()
 
         self.running = True
         self.datacollector.collect(self)
 
     def createStations(self):
-        for i in range(10):
 
-            x = self.random.randrange(self.width)
-            y = self.random.randrange(self.height)
+        list_of_random_nodes = self.random.sample(self.G.nodes(), 10)
 
-            while not self.grid.is_cell_empty((x, y)):
+        for n in range(len(list_of_random_nodes)):
 
-                x = self.random.randrange(self.width)
-                y = self.random.randrange(self.height)
+            s = Station(n, list_of_random_nodes[n], self, 5, 5)
 
-            s = Station((x, y), self, 5, 5, i)
+            self.stations[n] = s
 
-            self.stations[(x,y)] = s
-
-            self.grid.place_agent(s, (x, y))
+            self.grid.place_agent(s, list_of_random_nodes[n])
             # self.schedule.add(s) # Why would stations need to be on the schedule?
 
     def createRiders(self):
@@ -69,7 +67,7 @@ class BikePath(Model):
             start = self.random.randrange(24)
             end = self.random.randrange(24)
 
-            r = Rider(p, self, s, d, start, end)
+            r = Rider(i, p, self, s, d, start, end)
             self.grid.place_agent(r, p)
             self.schedule.add(r)
 

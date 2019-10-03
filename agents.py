@@ -2,13 +2,14 @@ import math
 
 from mesa import Agent
 
+
 class Rider(Agent):
-    def __init__(self, pos, model, start_station, destination, start_time, end_time, bike = None):
-        super().__init__(pos, model)
-        self.pos = pos
+    def __init__(self, unique_id, node, model, start_station, destination, start_time, end_time, bike=None):
+        super().__init__(unique_id, model)
+        self.node = node
         self.start_station = start_station
         self.destination = destination
-        self.path = self.calc_path()
+        # self.path = self.calc_path()
         self.start_time = start_time
         self.end_time = end_time
         self.bike = bike
@@ -179,10 +180,11 @@ class Rider(Agent):
                 else:
                     self.wait_count += 1
 
+
 class Bike(Agent):
-    def __init__(self, pos, model, cur_station, destination = None, dockless = False):
-        super().__init__(pos, model)
-        self.pos = pos
+    def __init__(self, unique_id, node, model, cur_station, destination=None, dockless=False):
+        super().__init__(unique_id, model)
+        self.node = node
         self.cur_station = cur_station
         self.destination = destination
         self.has_rider = False
@@ -192,15 +194,16 @@ class Bike(Agent):
     def move(self):
 
         if self.rider:
-            pass # the rider will move the bike
+            pass  # the rider will move the bike
             # self.model.grid.move_agent(self, self.rider.path[0])
 
     def step(self):
         self.move()
 
+
 class Station(Agent):
-    def __init__(self, pos, model, capacity, num_bikes, id):
-        super().__init__(pos, model)
+    def __init__(self, unique_id, node, model, capacity, num_bikes):
+        super().__init__(unique_id, model)
         self.capacity = capacity
         self.num_bikes = num_bikes
         self.id = id
