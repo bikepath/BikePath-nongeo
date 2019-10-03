@@ -47,7 +47,7 @@ def portrayal(G):
                            'target': target,
                            'color': '#000000',
                            }
-                          for edge_id, (source, target) in enumerate(G.edges)]
+                          for edge_id, (source, target, _) in enumerate(G.edges)]
 
     return portrayal
 
