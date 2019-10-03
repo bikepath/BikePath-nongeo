@@ -49,39 +49,11 @@ def portrayal(G):
                            }
                           for edge_id, (source, target) in enumerate(G.edges)]
 
-    # if agent is None:
-    #     return
-
-    # portrayal = {}
-
-    # if type(agent) is Rider:
-    #     portrayal["Shape"] = "resources/person.svg"
-    #     portrayal["Color"] = "red"
-    #     portrayal["scale"] = 0.9
-    #     portrayal["Layer"] = 1
-
-    # if type(agent) is Bike:
-    #     portrayal["Shape"] = "resources/bike.svg"
-    #     portrayal["Color"] = "green"
-    #     portrayal["scale"] = 0.95
-    #     portrayal["Layer"] = 0
-
-    # elif type(agent) is Station:
-    #     if agent.outage:
-    #         portrayal["Color"] = "gray"
-    #     else:
-    #         portrayal["Color"] = "blue"
-
-    #     portrayal["Shape"] = "rect"
-    #     portrayal["Filled"] = "true"
-    #     portrayal["Layer"] = 2
-    #     portrayal["w"] = 1
-    #     portrayal["h"] = 1
-
     return portrayal
 
 
 network_element = NetworkExtendedModule(portrayal, 500, 500)
 chart_element = ChartModule([{"Label": "Rider", "Color": "#AA0000"}])
+chart_element_rides = ChartModule([{"Label": "Missed Rides", "Color": "#AA0000"}])
 
-server = ModularServer(BikePath, [network_element, chart_element], "BikePath")
+server = ModularServer(BikePath, [network_element, chart_element, chart_element_rides], "BikePath")

@@ -7,12 +7,11 @@ from schedule import RandomActivationByBreed
 
 import networkx as nx
 
-
 class BikePath(Model):
 
     verbose = True  # Print-monitoring
 
-    def __init__(self, height=50, width=50, num_bikes=100, num_riders=10):
+    def __init__(self, height=50, width=50, num_bikes=10, num_riders=100):
         # Set parameters
         self.height = height
         self.width = width
@@ -22,7 +21,10 @@ class BikePath(Model):
         self.schedule = RandomActivationByBreed(self)
         self.G = nx.fast_gnp_random_graph(n=20, p=0.2)  # replace with osmnx
         self.grid = NetworkGrid(self.G)
-        self.datacollector = DataCollector({"Rider": lambda m: m.schedule.get_breed_count(Rider), })
+        self.datacollector = DataCollector({
+            "Rider": lambda m: m.schedule.get_breed_count(Rider),
+            "Missed Rides": lambda m: m.missed_rides
+        })
 
         self.stations = {}
         self.missed_rides = 0
@@ -33,8 +35,8 @@ class BikePath(Model):
         # Create riders:
         self.createRiders()
 
-        # # Create bikes:
-        # self.createBikes()
+        # Create bikes:
+        self.createBikes()
 
         self.running = True
         self.datacollector.collect(self)
@@ -47,7 +49,7 @@ class BikePath(Model):
 
             s = Station(n, list_of_random_nodes[n], self, 5, 5)
 
-            self.stations[n] = s
+            self.stations[list_of_random_nodes[n]] = s
 
             self.grid.place_agent(s, list_of_random_nodes[n])
             # self.schedule.add(s) # Why would stations need to be on the schedule?
@@ -79,10 +81,10 @@ class BikePath(Model):
             s = self.random.choice(list(self.stations.values()))
             p = s.pos
 
-            start = self.random.randrange(24)
-            end = self.random.randrange(24)
+            # start = self.random.randrange(24)
+            # end = self.random.randrange(24)
 
-            b = Bike(p, self, s)
+            b = Bike(i, p, self, s)
 
             s.bikes_here.append(b)
 

@@ -24,6 +24,7 @@ var NetworkExtendedModule = function(svg_width, svg_height) {
         }));
 
     this.render = function(data) {
+        // this.reset();
         var graph = JSON.parse(JSON.stringify(data));
 
         var simulation = d3.forceSimulation(graph.nodes)
@@ -108,7 +109,7 @@ var NetworkExtendedModule = function(svg_width, svg_height) {
                                 .attr("cy", function(d) { return d.y; })
                                 .attr("r", 4)
                                 .attr("opacity", 0.7)
-                                .attr("fill", function(d) { return "Green"; });
+                                .attr("fill", function(d) { return "Blue"; });
                             } else {
                                 d3.select(this).append("circle")
                                 .attr("cx", function(d) { return d.x; })
