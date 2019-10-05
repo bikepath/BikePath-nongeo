@@ -12,7 +12,7 @@ class Rider(Agent):
 
         try:
             self.path = nx.shortest_path(model.G, start_station.node, destination.node)
-            print(start_station.node, destination.node, self.path)
+            # print(start_station.node, destination.node, self.path)
         except nx.exception.NetworkXNoPath:
             self.path = []
             print("No path")

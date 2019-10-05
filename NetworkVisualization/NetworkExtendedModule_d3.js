@@ -31,12 +31,13 @@ var NetworkExtendedModule = function(svg_width, svg_height) {
             .force("charge", d3.forceManyBody()
                 .strength(-80)
                 .distanceMin(6))
-            .force("link", d3.forceLink(graph.edges))
+            .force("link", d3.forceLink(graph.edges).id(function(n) {return n.id; }))
             .force("center", d3.forceCenter())
             .stop();
 
         var loading = svg.append("text")
-            .attr("dy", "0.35em")
+            .attr("dx", "10em")
+            .attr("dy", "1em")
             .attr("text-anchor", "middle")
             .attr("font-family", "sans-serif")
             .attr("font-size", 10)
@@ -44,11 +45,8 @@ var NetworkExtendedModule = function(svg_width, svg_height) {
 
         // Use a timeout to allow the rest of the page to load first.
         d3.timeout(function() {
-            loading.remove();
 
-            for (var i = 0, n = Math.ceil(Math.log(simulation.alphaMin()) / Math.log(1 - simulation.alphaDecay())); i < n; ++i) {
-                simulation.tick();
-            }
+            simulation.tick(300);
 
             var links = g.append("g")
                 .selectAll("line")
@@ -88,14 +86,9 @@ var NetworkExtendedModule = function(svg_width, svg_height) {
                         .style("opacity", 0);
                 })
                 .each(function(d) {
-                    console.log("banana", d);
-                    console.log(d.agents);
+                    console.log("banana");
                     if(d.agents){
-                        // var a = g.append('g')
-                        // .data(d.agents);
-                        console.log("reached");
                         for (var i = d.agents.length - 1; i >= 0; i--) {
-                            console.log(d.agents[i]);
                             if(d.agents[i] == "Rider"){
                                 d3.select(this).append("circle")
                                 .attr("cx", function(d) { return d.x; })
@@ -119,10 +112,9 @@ var NetworkExtendedModule = function(svg_width, svg_height) {
                                 .attr("fill", function(d) { return "Green"; });
                             }
                         }
-                        // return a;
-
                     }
                 });
+            loading.remove();
 
             nodes.exit()
                 .remove();

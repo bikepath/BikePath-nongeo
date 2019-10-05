@@ -5,13 +5,13 @@ from mesa.datacollection import DataCollector
 from agents import Rider, Station, Bike
 from schedule import RandomActivationByBreed
 
-import networkx as nx
+import osmnx as ox
 
 class BikePath(Model):
 
     verbose = True  # Print-monitoring
 
-    def __init__(self, height=50, width=50, num_bikes=10, num_riders=100):
+    def __init__(self, height=50, width=50, num_bikes=10, num_riders=100, place='Quincy, Massachusetts, USA'):
         # Set parameters
         self.height = height
         self.width = width
@@ -19,7 +19,14 @@ class BikePath(Model):
         self.num_riders = num_riders
 
         self.schedule = RandomActivationByBreed(self)
-        self.G = nx.fast_gnp_random_graph(n=20, p=0.2)  # replace with osmnx
+
+        if 'Quincy' in place:
+            self.G = ox.graph_from_file('data/quincy.osm')
+        else:
+            self.G = ox.graph_from_place(place, network_type='bike')
+
+        # self.G = self.G.to_directed()
+
         self.grid = NetworkGrid(self.G)
         self.datacollector = DataCollector({
             "Rider": lambda m: m.schedule.get_breed_count(Rider),
