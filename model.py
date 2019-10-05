@@ -25,6 +25,8 @@ class BikePath(Model):
         else:
             self.G = ox.graph_from_place(place, network_type='bike')
 
+        # self.G = self.G.to_directed()
+
         self.grid = NetworkGrid(self.G)
         self.datacollector = DataCollector({
             "Rider": lambda m: m.schedule.get_breed_count(Rider),

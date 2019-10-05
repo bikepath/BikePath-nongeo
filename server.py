@@ -17,6 +17,7 @@ def get_breed(a):
     else:
         return None
 
+
 def get_tooltip(agents):
     count = defaultdict(int)
 
@@ -47,7 +48,9 @@ def portrayal(G):
                            'target': target,
                            'color': '#000000',
                            }
-                          for edge_id, (source, target, _) in enumerate(G.edges)]
+                          for edge_id, (source, target) in enumerate(G.edges())]
+
+    print("port", len(portrayal['nodes']), len(portrayal['edges']))
 
     return portrayal
 
