@@ -7,6 +7,7 @@ var LeafletModule = function (view, zoom, map_width, map_height) {
 
   // Create Leaflet map and Agent layers
   var Lmap = L.map('mapid').setView(view, zoom);
+  var agents = L.layerGroup();
 
   // create the OSM tile layer with correct attribution
   // var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
@@ -27,16 +28,18 @@ var LeafletModule = function (view, zoom, map_width, map_height) {
   Lmap.addLayer(osm);
 
   var bikeIcon = L.icon({
-    iconUrl: 'resources/bike.svg'
+    iconUrl: 'local/resources/bike.svg',
+    iconSize: 40
   });
 
   var riderIcon = L.icon({
-    iconUrl: 'resources/person.svg'
+    iconUrl: 'local/resources/person.svg',
+    iconSize: 40
   });
 
   this.render = function (nodes) {
 
-    console.log(nodes);
+    agents.clearLayers();
 
     for (var i = nodes.length - 1; i >= 0; i--) {
       
@@ -45,28 +48,31 @@ var LeafletModule = function (view, zoom, map_width, map_height) {
           case "Rider":
             L.marker([nodes[i]['lat'], nodes[i]['long']], 
               {
-                  // icon: riderIcon
-              }).addTo(Lmap).bindPopup(`<b>${nodes[i].agents[j]}</b></br>${nodes[i]['lat']}, ${nodes[i]['long']}`);
+                  icon: riderIcon,
+              }).addTo(agents).bindPopup(`<b>${nodes[i].agents[j]}</b></br>${nodes[i]['lat']}, ${nodes[i]['long']}`);
             break;
           case "Bike":
             marker = L.marker([nodes[i]['lat'], nodes[i]['long']], 
               {
-                  // icon: bikeIcon
-              }).addTo(Lmap).bindPopup(`<b>${nodes[i].agents[j]}</b></br>${nodes[i]['lat']}, ${nodes[i]['long']}`);
+                  icon: bikeIcon
+              }).addTo(agents).bindPopup(`<b>${nodes[i].agents[j]}</b></br>${nodes[i]['lat']}, ${nodes[i]['long']}`);
             break;
           case "Station":
             marker = L.marker([nodes[i]['lat'], nodes[i]['long']])
-              .addTo(Lmap)
+              .addTo(agents)
               .bindPopup(`<b>${nodes[i].agents[j]}</b></br>${nodes[i]['lat']}, ${nodes[i]['long']}`);
         }
       }
     }
 
+    Lmap.addLayer(agents);
+
   }
 
   this.reset = function () {
-    Lmap.remove()
-    Lmap = L.map('mapid').setView(view, zoom)
-    Lmap.addLayer(osm)
+    Lmap.remove();
+    Lmap = L.map('mapid').setView(view, zoom);
+    Lmap.addLayer(osm);
+    Lmap.removeLayer(agents);
   }
 }
