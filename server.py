@@ -1,6 +1,6 @@
 from mesa.visualization.ModularVisualization import ModularServer
 from mesa.visualization.modules import ChartModule
-from NetworkVisualization.NetworkExtendedVisualization import NetworkExtendedModule
+from LeafletVisualization.LeafletModule import LeafletModule
 
 from agents import Rider, Station, Bike
 from model import BikePath
@@ -36,27 +36,22 @@ def portrayal(G):
     portrayal = dict()
 
     portrayal['nodes'] = [{'id': node_id,
-                           'size': 3 if agents else 1,
-                           'color': '#CC0000' if not agents else '#007959',
-                           'tooltip': None if not agents else get_tooltip(agents),  # fix this
-                           'agents': [get_breed(a) for a in agents]
+                           'size': 3 if data['agent'] else 1,
+                           'tooltip': get_tooltip(data['agent']),  # fix this
+                           'agents': [get_breed(a) for a in data['agent']],
+                           'lat': data['y'],
+                           'long': data['x']
                            }
-                          for (node_id, agents) in G.nodes.data('agent')]
+                          for (node_id, data) in G.nodes(data=True) if len(data['agent']) > 0]
 
-    portrayal['edges'] = [{'id': edge_id,
-                           'source': source,
-                           'target': target,
-                           'color': '#000000',
-                           }
-                          for edge_id, (source, target) in enumerate(G.edges())]
-
-    print("port", len(portrayal['nodes']), len(portrayal['edges']))
+    print("port", len(portrayal['nodes']))
 
     return portrayal
 
 
-network_element = NetworkExtendedModule(portrayal, 500, 500)
+leaflet_element = LeafletModule(portrayal, view=[42, -71])
+
 chart_element = ChartModule([{"Label": "Rider", "Color": "#AA0000"}])
 chart_element_rides = ChartModule([{"Label": "Missed Rides", "Color": "#AA0000"}])
 
-server = ModularServer(BikePath, [network_element, chart_element, chart_element_rides], "BikePath")
+server = ModularServer(BikePath, [leaflet_element, chart_element, chart_element_rides], "BikePath")

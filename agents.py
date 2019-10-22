@@ -23,6 +23,8 @@ class Rider(Agent):
 
     def move(self):
 
+        # Keep track of speed based on start/end
+
         self.model.grid.move_agent(self, self.path[0])
         self.model.grid.move_agent(self.bike, self.path[0])
 
