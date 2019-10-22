@@ -13,8 +13,10 @@ class LeafletModule(VisualizationElement):
     """A MapModule for Leaflet maps."""
 
     package_includes = []
-    local_includes = ["LeafletVisualization/leaflet.js", "LeafletVisualization/LeafletMap.js"]
-    # local_includes = ["LeafletVisualization/LeafletMap.js"]
+    local_includes = [
+        "LeafletVisualization/leaflet.js",
+        "LeafletVisualization/LeafletMap.js"
+    ]
 
     def __init__(
         self, portrayal_method, view=[0, 0], zoom=10, map_height=500, map_width=500

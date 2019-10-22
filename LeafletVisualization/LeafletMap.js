@@ -23,8 +23,16 @@ var LeafletModule = function (view, zoom, map_width, map_height) {
     maxZoom: 19,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   });
-  
+
   Lmap.addLayer(osm);
+
+  var bikeIcon = L.icon({
+    iconUrl: 'resources/bike.svg'
+  });
+
+  var riderIcon = L.icon({
+    iconUrl: 'resources/person.svg'
+  });
 
   this.render = function (nodes) {
 
@@ -32,17 +40,26 @@ var LeafletModule = function (view, zoom, map_width, map_height) {
 
     for (var i = nodes.length - 1; i >= 0; i--) {
       
-      var marker = L.marker([nodes[i]['lat'], nodes[i]['long']], 
-        {
-            icon: new L.DivIcon({
-                className: 'my-div-icon',
-                html: `<b>${nodes[i]['id']}</b>`
-            })
-        }).addTo(Lmap);
-        // });
-      Lmap.addLayer(marker);
-      // oms.addMarker(marker);
-      marker.bindPopup(`<b>${nodes[i]['id']}</b></br>${nodes[i]['lat']}, ${nodes[i]['long']}`);
+      for (var j = nodes[i].agents.length; j >= 0; j--){
+        switch(nodes[i].agents[j]){
+          case "Rider":
+            L.marker([nodes[i]['lat'], nodes[i]['long']], 
+              {
+                  // icon: riderIcon
+              }).addTo(Lmap).bindPopup(`<b>${nodes[i].agents[j]}</b></br>${nodes[i]['lat']}, ${nodes[i]['long']}`);
+            break;
+          case "Bike":
+            marker = L.marker([nodes[i]['lat'], nodes[i]['long']], 
+              {
+                  // icon: bikeIcon
+              }).addTo(Lmap).bindPopup(`<b>${nodes[i].agents[j]}</b></br>${nodes[i]['lat']}, ${nodes[i]['long']}`);
+            break;
+          case "Station":
+            marker = L.marker([nodes[i]['lat'], nodes[i]['long']])
+              .addTo(Lmap)
+              .bindPopup(`<b>${nodes[i].agents[j]}</b></br>${nodes[i]['lat']}, ${nodes[i]['long']}`);
+        }
+      }
     }
 
   }
