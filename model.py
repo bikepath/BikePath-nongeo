@@ -7,6 +7,7 @@ from schedule import RandomActivationByBreed
 
 import osmnx as ox
 
+
 class BikePath(Model):
 
     verbose = False  # Print-monitoring
@@ -26,6 +27,8 @@ class BikePath(Model):
             self.G = ox.graph_from_file('data/boston.osm')
         else:
             self.G = ox.graph_from_place(place, network_type='bike')
+
+        print(self.G.node)
 
         # self.G = self.G.to_directed()
 

@@ -1,2 +1,4 @@
 jupyter
 mesa
+networkx==2.3
+osmnx==0.1
