@@ -25,6 +25,9 @@ class Rider(Agent):
 
         # Keep track of speed based on start/end
 
+        if len(self.path) < 1:
+            return
+
         self.model.grid.move_agent(self, self.path[0])
         self.model.grid.move_agent(self.bike, self.path[0])
 
@@ -37,7 +40,7 @@ class Rider(Agent):
         # if at a station
         # TODO: I can easily ALSO model dockless bikes by just removing the at a station check
 
-        print(self, self.pos, self.destination.pos, self.bike)
+        # print(self, self.pos, self.destination.pos, self.bike)
 
         if self.bike:
 

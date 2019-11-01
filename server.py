@@ -1,5 +1,8 @@
 from mesa.visualization.ModularVisualization import ModularServer
 from mesa.visualization.modules import ChartModule
+
+from mesa.visualization.UserParam import UserSettableParameter
+
 from LeafletVisualization.LeafletModule import LeafletModule
 
 from agents import Rider, Station, Bike
@@ -44,14 +47,21 @@ def portrayal(G):
                            }
                           for (node_id, data) in G.nodes(data=True) if len(data['agent']) > 0]
 
-    print("port", len(portrayal['nodes']))
+    # print("port", len(portrayal['nodes']))
 
     return portrayal
 
 
-leaflet_element = LeafletModule(portrayal, view=[42, -71])
+leaflet_element = LeafletModule(portrayal, view=[42.36, -71.05])
 
 chart_element = ChartModule([{"Label": "Rider", "Color": "#AA0000"}])
 chart_element_rides = ChartModule([{"Label": "Missed Rides", "Color": "#AA0000"}])
 
-server = ModularServer(BikePath, [leaflet_element, chart_element, chart_element_rides], "BikePath")
+model_params = {
+    "place": "Boston, MA",
+    "num_bikes": UserSettableParameter("slider", "Number of Bikes", 500, 100, 2000, 1),
+    "num_riders": UserSettableParameter("slider", "Number of Riders", 500, 100, 2000, 1),
+    "place_name": UserSettableParameter("static_text", value="Boston, MA")
+}
+
+server = ModularServer(BikePath, [leaflet_element, chart_element, chart_element_rides], "BikePath", model_params)

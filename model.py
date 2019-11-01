@@ -9,7 +9,7 @@ import osmnx as ox
 
 class BikePath(Model):
 
-    verbose = True  # Print-monitoring
+    verbose = False  # Print-monitoring
 
     def __init__(self, height=50, width=50, num_bikes=10, num_riders=100, place='Quincy, Massachusetts, USA'):
         # Set parameters
@@ -22,6 +22,8 @@ class BikePath(Model):
 
         if 'Quincy' in place:
             self.G = ox.graph_from_file('data/quincy.osm')
+        elif 'Boston' in place:
+            self.G = ox.graph_from_file('data/boston.osm')
         else:
             self.G = ox.graph_from_place(place, network_type='bike')
 
@@ -50,7 +52,7 @@ class BikePath(Model):
 
     def createStations(self):
 
-        list_of_random_nodes = self.random.sample(self.G.nodes(), 10)
+        list_of_random_nodes = self.random.sample(self.G.nodes(), 100)
 
         for n in range(len(list_of_random_nodes)):
 
