@@ -15,12 +15,11 @@ class LeafletModule(VisualizationElement):
     package_includes = []
     local_includes = [
         "LeafletVisualization/leaflet.js",
+        "LeafletVisualization/leaflet.markercluster.js",
         "LeafletVisualization/LeafletMap.js"
     ]
 
-    def __init__(
-        self, portrayal_method, view=[0, 0], zoom=10, map_height=500, map_width=500
-    ):
+    def __init__(self, portrayal_method, view=[0, 0], zoom=10, map_height=500, map_width=750):
         self.portrayal_method = portrayal_method
         self.map_height = map_height
         self.map_width = map_width

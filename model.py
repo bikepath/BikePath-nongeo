@@ -3,23 +3,27 @@ from mesa.space import NetworkGrid
 from mesa.datacollection import DataCollector
 
 from agents import Rider, Station, Bike
-from schedule import RandomActivationByBreed
+from schedule import TimedActivation
 
+import csv
+import json
 import osmnx as ox
+import networkx as nx
 
 
 class BikePath(Model):
 
     verbose = False  # Print-monitoring
 
-    def __init__(self, height=50, width=50, num_bikes=10, num_riders=100, place='Quincy, Massachusetts, USA'):
+    def __init__(self, height=50, width=50, num_bikes=10, num_riders=100, place='Boston, Massachusetts, USA'):
         # Set parameters
         self.height = height
         self.width = width
         self.num_bikes = num_bikes
         self.num_riders = num_riders
+        self.place = place
 
-        self.schedule = RandomActivationByBreed(self)
+        self.schedule = TimedActivation(self)
 
         if 'Quincy' in place:
             self.G = ox.graph_from_file('data/quincy.osm')
@@ -27,8 +31,6 @@ class BikePath(Model):
             self.G = ox.graph_from_file('data/boston.osm')
         else:
             self.G = ox.graph_from_place(place, network_type='bike')
-
-        print(self.G.node)
 
         # self.G = self.G.to_directed()
 
@@ -55,35 +57,85 @@ class BikePath(Model):
 
     def createStations(self):
 
-        list_of_random_nodes = self.random.sample(self.G.nodes(), 100)
+        if 'Boston' in self.place:
+            stations = []
 
-        for n in range(len(list_of_random_nodes)):
+            with open('data/station_information.json') as json_file:
+                data = json.load(json_file)['data']['stations']
+                for s in data:
+                    node, dist = ox.utils.get_nearest_node(self.G, (s['lat'], s['lon']), return_dist=True)
+                    if dist < 500:
+                        station = Station(int(s['station_id']), node, self, s['capacity'], 0)
+                        self.grid.place_agent(station, node)
+                        self.stations[node] = station
 
-            s = Station(n, list_of_random_nodes[n], self, 5, 5)
+        else:
+            stations = self.random.sample(self.G.nodes(), 100)
+            for n in range(len(stations)):
 
-            self.stations[list_of_random_nodes[n]] = s
+                s = Station(n, stations[n], self, 5, 5)
 
-            self.grid.place_agent(s, list_of_random_nodes[n])
-            # self.schedule.add(s) # Why would stations need to be on the schedule?
+                self.stations[stations[n]] = s
+
+                self.grid.place_agent(s, stations[n])
 
     def createRiders(self):
+        # tripduration,starttime,stoptime,start station id,start station name,start station latitude,start station longitude,end station id,end station name,end station latitude,end station longitude,bikeid,usertype,birth year,gender
+
         stations = list(self.stations.values())
 
-        for i in range(self.num_riders):
+        if 'Boston' in self.place:
 
-            # start_station, destination, start_time, end_time, cur_bike
+            i = 0
 
-            s = self.random.choice(stations)
-            p = s.pos
+            with open('data/201909-bluebikes-tripdata-SMALL.csv') as csvfile:
 
-            d = self.random.choice(stations)
+                spamreader = csv.reader(csvfile)
 
-            start = self.random.randrange(24)
-            end = self.random.randrange(24)
+                next(spamreader)
 
-            r = Rider(i, p, self, s, d, start, end)
-            self.grid.place_agent(r, p)
-            self.schedule.add(r)
+                for row in csvfile:
+
+                    row = row.strip().split(',')
+
+                    start = next((x for x in stations if x.unique_id == int(row[3])), None)
+                    end = next((x for x in stations if x.unique_id == int(row[7])), None)
+
+                    if start is None or end is None:
+                        print("Station not found", i)
+                        continue
+
+                    starttime = row[1]
+                    endtime = row[2]
+
+                    try:
+                        speed = float(nx.shortest_path_length(self.G, source=start.node, target=end.node, weight='cost')) / float(row[0])
+                    except nx.exception.NetworkXNoPath as _:
+                        print("Station not in scope")
+                        speed = 5
+
+                    r = Rider(i, start.node, self, start, end, starttime, endtime, speed=speed, birthyear=int(row[13]), gender=int(row[14]))
+                    self.grid.place_agent(r, start.node)
+                    self.schedule.add(r)
+
+                    i += 1
+
+        else:
+            for i in range(self.num_riders):
+
+                # start_station, destination, start_time, end_time, cur_bike
+
+                s = self.random.choice(stations)
+                p = s.pos
+
+                d = self.random.choice(stations)
+
+                start = self.random.randrange(24)
+                end = self.random.randrange(24)
+
+                r = Rider(i, p, self, s, d, start, end)
+                self.grid.place_agent(r, p)
+                self.schedule.add(r)
 
     def createBikes(self):
         for i in range(self.num_bikes):
@@ -99,6 +151,7 @@ class BikePath(Model):
             b = Bike(i, p, self, s)
 
             s.bikes_here.append(b)
+            s.num_bikes += 1
 
             self.grid.place_agent(b, p)
             self.schedule.add(b)

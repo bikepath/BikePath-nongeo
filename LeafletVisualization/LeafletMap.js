@@ -4,10 +4,11 @@ var LeafletModule = function (view, zoom, map_width, map_height) {
   // Append it to body:
   $('#elements').append($(map_tag)[0])
   $('head').append('<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="crossorigin=""/>');
+  $('head').append('<link rel="stylesheet" href="/local/LeafletVisualization/MarkerCluster.css"/>');
 
   // Create Leaflet map and Agent layers
-  var Lmap = L.map('mapid').setView(view, zoom);
-  var agents = L.layerGroup();
+  var Lmap = L.map('mapid', { preferCanvas: true }).setView(view, zoom);
+  var agentsLayer = L.layerGroup();
 
   // create the OSM tile layer with correct attribution
   // var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
@@ -39,10 +40,15 @@ var LeafletModule = function (view, zoom, map_width, map_height) {
 
   this.render = function (nodes) {
 
-    agents.clearLayers();
+    agentsLayer.clearLayers();
 
     for (var i = nodes.length - 1; i >= 0; i--) {
-      
+      var agents = L.markerClusterGroup({ // https://github.com/Leaflet/Leaflet.markercluster
+        // spiderfyOnMaxZoom: false,
+        // showCoverageOnHover: false,
+        // zoomToBoundsOnClick: false
+      });
+
       for (var j = nodes[i].agents.length; j >= 0; j--){
         switch(nodes[i].agents[j]){
           case "Rider":
@@ -52,20 +58,21 @@ var LeafletModule = function (view, zoom, map_width, map_height) {
               }).addTo(agents).bindPopup(`<b>${nodes[i].agents[j]}</b></br>${nodes[i]['lat']}, ${nodes[i]['long']}`);
             break;
           case "Bike":
-            marker = L.marker([nodes[i]['lat'], nodes[i]['long']], 
+            L.marker([nodes[i]['lat'], nodes[i]['long']], 
               {
                   icon: bikeIcon
               }).addTo(agents).bindPopup(`<b>${nodes[i].agents[j]}</b></br>${nodes[i]['lat']}, ${nodes[i]['long']}`);
             break;
           case "Station":
-            marker = L.marker([nodes[i]['lat'], nodes[i]['long']])
+            L.marker([nodes[i]['lat'], nodes[i]['long']])
               .addTo(agents)
               .bindPopup(`<b>${nodes[i].agents[j]}</b></br>${nodes[i]['lat']}, ${nodes[i]['long']}`);
         }
       }
+      agentsLayer.addLayer(agents);
     }
 
-    Lmap.addLayer(agents);
+    Lmap.addLayer(agentsLayer);
 
   }
 
@@ -73,6 +80,6 @@ var LeafletModule = function (view, zoom, map_width, map_height) {
     Lmap.remove();
     Lmap = L.map('mapid').setView(view, zoom);
     Lmap.addLayer(osm);
-    Lmap.removeLayer(agents);
+    Lmap.removeLayer(agentsLayer);
   }
 }

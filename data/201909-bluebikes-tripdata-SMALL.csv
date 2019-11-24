@@ -1,0 +1,469 @@
+tripduration,starttime,stoptime,start station id,start station name,start station latitude,start station longitude,end station id,end station name,end station latitude,end station longitude,bikeid,usertype,birth year,gender
+916,00:21.3,15:38.1,9,Commonwealth Ave at Agganis Way,42.35169202,-71.11903489,33,Kenmore Square,42.348706,-71.097009,4161,Subscriber,2000,1
+394,00:33.0,07:07.1,189,Kendall T,42.36242784,-71.08495474,178,MIT Pacific St at Purrington St,42.3595732,-71.10129476,5515,Subscriber,1991,1
+480,00:52.5,08:53.0,9,Commonwealth Ave at Agganis Way,42.35169202,-71.11903489,10,B.U. Central - 725 Comm. Ave.,42.350406,-71.108279,3061,Customer,1969,0
+800,01:05.5,14:25.8,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,199,Upham's Corner T Stop - Magnolia St at Dudley St,42.31869734,-71.06978148,3309,Subscriber,1983,1
+758,01:13.4,13:52.3,56,Dudley Square - Dudley St at Warren St,42.32984299,-71.08386572,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,743,Subscriber,1977,1
+261,01:33.8,05:55.6,124,Curtis Hall - South St at Centre St,42.309054,-71.11543,273,Forest Hills,42.300923,-71.114249,3241,Subscriber,1989,2
+1096,01:36.4,19:52.9,189,Kendall T,42.36242784,-71.08495474,358,Medford St at Charlestown BCYF,42.38042947,-71.06055722,4565,Customer,1969,0
+1198,01:43.2,21:42.1,151,Surface Rd at India St,42.358155,-71.052163,31,Seaport Hotel - Congress St at Seaport Ln,42.34881026,-71.04167744,3063,Customer,1983,1
+269,01:55.6,06:25.3,26,Washington St at Waltham St,42.341522,-71.068922,364,Tremont St at Northampton St,42.3388956,-71.08149976,2646,Subscriber,1989,1
+857,02:42.3,16:59.5,73,Harvard Square at Brattle St / Eliot St,42.373231,-71.120886,66,Allston Green District - Griggs St at Commonwealth Ave,42.34922469,-71.13275303,5028,Subscriber,1990,1
+629,03:25.9,13:55.3,79,Beacon St at Washington / Kirkland,42.37842,-71.105668,95,Cambridge St - at Columbia St / Webster Ave,42.372969,-71.094445,3428,Subscriber,1984,2
+567,03:36.5,13:03.6,358,Medford St at Charlestown BCYF,42.38042947,-71.06055722,194,Broadway St at Mt Pleasant St,42.38614141,-71.0782814,3519,Subscriber,1992,1
+98,04:07.0,05:45.1,380,Mass Ave at Albany St,42.36135838,-71.09670274,178,MIT Pacific St at Purrington St,42.3595732,-71.10129476,5370,Subscriber,1994,1
+345,04:28.1,10:14.0,378,191 Beacon St,42.38032335,-71.10878613,73,Harvard Square at Brattle St / Eliot St,42.373231,-71.120886,4856,Subscriber,1993,1
+1032,04:46.6,21:59.5,60,Charles Circle - Charles St at Cambridge St,42.360185,-71.07086598,381,Inman Square at Springfield St.,42.37438409,-71.10015746,3828,Subscriber,1980,1
+544,04:53.0,13:57.8,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,108,Harvard University / SEAS Cruft-Pierce Halls at 29 Oxford St,42.377945,-71.116865,5581,Subscriber,1986,1
+745,04:58.5,17:23.7,352,Ring Rd,42.34827839,-71.08044855,51,Washington St at Lenox St,42.33509899,-71.07903779,3816,Subscriber,1986,1
+927,05:15.6,20:42.9,37,New Balance - 20 Guest St,42.35732922,-71.1467354,74,Harvard Square at Mass Ave/ Dunster,42.373268,-71.118579,5158,Customer,1996,1
+385,05:24.3,11:49.3,87,Harvard University Housing - 115 Putnam Ave at Peabody Terrace,42.366621,-71.114214,87,Harvard University Housing - 115 Putnam Ave at Peabody Terrace,42.366621,-71.114214,5123,Subscriber,1983,1
+679,05:46.6,17:06.3,352,Ring Rd,42.34827839,-71.08044855,51,Washington St at Lenox St,42.33509899,-71.07903779,4463,Customer,1969,0
+628,06:13.2,16:41.3,70,Harvard Kennedy School at Bennett St / Eliot St,42.3722168,-71.12188071,139,Dana Park,42.36178044,-71.10809952,3206,Subscriber,1993,2
+1571,06:18.6,32:30.2,374,Tremont St at Hamilton Pl,42.35668335,-71.06166646,190,Nashua Street at Red Auerbach Way,42.365673,-71.064263,4186,Subscriber,1993,1
+1170,06:28.2,25:58.3,63,Dorchester Ave at Gillette Park,42.34404051,-71.05737627,22,South Station - 700 Atlantic Ave,42.352175,-71.055547,4845,Customer,1969,0
+269,06:48.7,11:18.1,328,Grove St at Community Path,42.39638681,-71.12011306,137,Magoun Square at Trum Field,42.398365,-71.107818,4944,Customer,1986,1
+510,07:22.5,15:53.4,69,Coolidge Corner - Beacon St at Centre St,42.341598,-71.123338,33,Kenmore Square,42.348706,-71.097009,2264,Customer,1969,0
+1166,07:41.1,27:07.7,116,359 Broadway - Broadway at Fayette Street,42.370803,-71.104412,225,Cambridge Dept. of Public Works -147 Hampshire St.,42.37119728,-71.09759867,3859,Customer,1969,0
+19491,08:01.0,32:52.6,63,Dorchester Ave at Gillette Park,42.34404051,-71.05737627,338,Commonwealth Ave at Kelton St,42.34835863,-71.13997217,2081,Customer,1969,0
+449,08:12.3,15:42.2,49,Stuart St at Charles St,42.351146,-71.066289,374,Tremont St at Hamilton Pl,42.35668335,-71.06166646,833,Subscriber,1980,1
+194,08:13.5,11:28.3,342,Boylston St at Jersey St,42.34465063,-71.09732501,19,Park Dr at Buswell St,42.347241,-71.105301,5150,Subscriber,1994,1
+485,08:15.6,16:21.1,49,Stuart St at Charles St,42.351146,-71.066289,374,Tremont St at Hamilton Pl,42.35668335,-71.06166646,3166,Subscriber,1983,1
+687,08:26.4,19:53.4,67,MIT at Mass Ave / Amherst St,42.3581,-71.093198,57,Columbus Ave at Massachusetts Ave,42.34054262,-71.08138848,3427,Subscriber,1987,1
+1737,08:49.7,37:47.1,134,Boylston St at Dartmouth St,42.350413,-71.07655,10,B.U. Central - 725 Comm. Ave.,42.350406,-71.108279,2884,Subscriber,1985,1
+1139,09:12.9,28:12.2,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,100,Davis Square,42.396969,-71.123024,5376,Subscriber,1985,1
+515,09:30.5,18:06.3,61,Boylston St at Fairfield St,42.348762,-71.082383,33,Kenmore Square,42.348706,-71.097009,2272,Subscriber,1997,2
+839,09:35.9,23:35.9,22,South Station - 700 Atlantic Ave,42.352175,-71.055547,23,Boston City Hall - 28 State St,42.35892,-71.057629,3805,Customer,1991,1
+746,10:00.9,22:27.0,22,South Station - 700 Atlantic Ave,42.352175,-71.055547,163,The Lawn on D,42.344792,-71.044024,3486,Customer,1969,0
+748,10:01.5,22:30.0,22,South Station - 700 Atlantic Ave,42.352175,-71.055547,163,The Lawn on D,42.344792,-71.044024,4975,Customer,1969,0
+1685,10:11.6,38:16.8,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,72,One Broadway / Kendall Sq at Main St / 3rd St,42.36224179,-71.08311072,5361,Subscriber,1996,1
+904,10:19.1,25:23.4,63,Dorchester Ave at Gillette Park,42.34404051,-71.05737627,22,South Station - 700 Atlantic Ave,42.352175,-71.055547,2417,Customer,1969,0
+920,10:35.9,25:56.0,63,Dorchester Ave at Gillette Park,42.34404051,-71.05737627,22,South Station - 700 Atlantic Ave,42.352175,-71.055547,4519,Customer,1969,0
+178,11:39.4,14:38.2,66,Allston Green District - Griggs St at Commonwealth Ave,42.34922469,-71.13275303,66,Allston Green District - Griggs St at Commonwealth Ave,42.34922469,-71.13275303,5622,Customer,1998,1
+1304,11:39.4,33:23.8,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,121,W Broadway at Dorchester St,42.33595898,-71.046229,3307,Customer,1969,0
+1472,11:50.0,36:22.0,329,Washington St at Myrtle St,42.38169983,-71.08377589,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,4036,Customer,1969,0
+169,11:57.4,14:46.8,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,139,Dana Park,42.36178044,-71.10809952,2077,Subscriber,1996,2
+436,11:59.6,19:16.1,91,One Kendall Square at Hampshire St / Portland St,42.366277,-71.09169,420,Charles St at Pinckney St,42.3587253,-71.07079532,5005,Subscriber,1996,1
+1292,12:01.8,33:34.2,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,121,W Broadway at Dorchester St,42.33595898,-71.046229,2142,Customer,1969,0
+1466,12:06.6,36:32.8,329,Washington St at Myrtle St,42.38169983,-71.08377589,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,3682,Customer,1969,0
+395,12:23.7,18:59.3,344,Commonwealth Ave at Chiswick Rd,42.34024645,-71.15168806,174,Washington St at Brock St,42.34895285,-71.16031677,2670,Customer,1995,1
+1322,12:33.7,34:36.5,386,Sennott Park  Broadway at Norfolk Street,42.36860524,-71.09930186,86,Brookline Village - Station Street at MBTA,42.33299892,-71.11634426,5231,Subscriber,1994,2
+629,13:06.9,23:36.5,381,Inman Square at Springfield St.,42.37438409,-71.10015746,139,Dana Park,42.36178044,-71.10809952,4827,Subscriber,1993,1
+634,13:07.5,23:42.4,381,Inman Square at Springfield St.,42.37438409,-71.10015746,139,Dana Park,42.36178044,-71.10809952,3221,Subscriber,1993,1
+738,13:14.4,25:32.4,16,Back Bay T Stop - Dartmouth St at Stuart St,42.34807412,-71.07657015,16,Back Bay T Stop - Dartmouth St at Stuart St,42.34807412,-71.07657015,3386,Subscriber,1995,1
+1359,13:37.6,36:17.1,329,Washington St at Myrtle St,42.38169983,-71.08377589,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,4786,Customer,1969,0
+1345,13:46.7,36:12.2,329,Washington St at Myrtle St,42.38169983,-71.08377589,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,4871,Customer,1969,0
+354,14:16.7,20:10.8,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,87,Harvard University Housing - 115 Putnam Ave at Peabody Terrace,42.366621,-71.114214,2091,Subscriber,1997,1
+1585,14:23.5,40:49.3,41,Packard's Corner - Commonwealth Ave at Brighton Ave,42.352261,-71.123831,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,5345,Subscriber,1982,1
+3610,14:26.2,14:36.4,20,Aquarium T Stop - 200 Atlantic Ave,42.35991176,-71.05142981,75,Lafayette Square at Mass Ave / Main St / Columbia St,42.36346469,-71.10057324,4408,Subscriber,1987,1
+1996,14:52.3,48:08.3,192,Purchase St at Pearl St,42.354659,-71.053181,206,Government Center - Cambridge St at Court St,42.35980252,-71.05960783,3239,Customer,1969,0
+1651,15:22.2,42:53.8,24,Seaport Square - Seaport Blvd at Northern Ave,42.35148193,-71.04436085,20,Aquarium T Stop - 200 Atlantic Ave,42.35991176,-71.05142981,5530,Customer,1981,2
+1614,15:43.2,42:37.7,24,Seaport Square - Seaport Blvd at Northern Ave,42.35148193,-71.04436085,20,Aquarium T Stop - 200 Atlantic Ave,42.35991176,-71.05142981,5025,Customer,1981,2
+233,15:48.8,19:42.2,218,Watermark Seaport - Boston Wharf Rd at Seaport Blvd,42.351586,-71.04569256,157,Seaport Blvd at Sleeper St,42.35317809,-71.04817357,4960,Subscriber,1995,2
+2869,15:49.0,03:38.4,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,335,Harvard St at Greene-Rose Heritage Park,42.36599433,-71.09522222,5602,Subscriber,1990,2
+731,15:58.4,28:09.9,218,Watermark Seaport - Boston Wharf Rd at Seaport Blvd,42.351586,-71.04569256,40,Lewis Wharf at Atlantic Ave,42.363871,-71.050877,2299,Subscriber,1994,1
+1347,16:08.8,38:36.3,218,Watermark Seaport - Boston Wharf Rd at Seaport Blvd,42.351586,-71.04569256,90,Lechmere Station at Cambridge St / First St,42.370677,-71.076529,5073,Subscriber,1994,1
+1854,16:51.7,47:46.4,192,Purchase St at Pearl St,42.354659,-71.053181,206,Government Center - Cambridge St at Court St,42.35980252,-71.05960783,3820,Customer,1969,0
+2239,17:17.6,54:37.4,91,One Kendall Square at Hampshire St / Portland St,42.366277,-71.09169,44,Congress St at North St,42.36041775,-71.05752244,5373,Customer,1969,0
+180,17:26.9,20:27.8,19,Park Dr at Buswell St,42.347241,-71.105301,342,Boylston St at Jersey St,42.34465063,-71.09732501,5541,Subscriber,1994,1
+1792,17:40.1,47:33.0,349,Washington St at Talbot Ave,42.290333,-71.071806,349,Washington St at Talbot Ave,42.290333,-71.071806,2385,Subscriber,1971,2
+299,18:39.3,23:38.9,273,Forest Hills,42.300923,-71.114249,279,Williams St at Washington St,42.306539,-71.107669,1581,Subscriber,1987,1
+302,18:42.1,23:44.8,380,Mass Ave at Albany St,42.36135838,-71.09670274,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,2742,Subscriber,1998,1
+1030,19:18.8,36:29.7,54,Tremont St at West St,42.354979,-71.063348,225,Cambridge Dept. of Public Works -147 Hampshire St.,42.37119728,-71.09759867,5294,Subscriber,1992,1
+41566,19:28.4,52:15.0,192,Purchase St at Pearl St,42.354659,-71.053181,1,18 Dorrance Warehouse,42.387151,-71.075978,2540,Customer,1969,0
+763,19:32.2,32:16.0,10,B.U. Central - 725 Comm. Ave.,42.350406,-71.108279,33,Kenmore Square,42.348706,-71.097009,4821,Customer,1969,0
+934,20:02.5,35:36.7,19,Park Dr at Buswell St,42.347241,-71.105301,19,Park Dr at Buswell St,42.347241,-71.105301,2284,Subscriber,1994,1
+725,20:13.4,32:18.6,10,B.U. Central - 725 Comm. Ave.,42.350406,-71.108279,33,Kenmore Square,42.348706,-71.097009,3061,Customer,1969,0
+858,20:20.5,34:38.9,356,Charlestown Navy Yard,42.37412455,-71.054812,20,Aquarium T Stop - 200 Atlantic Ave,42.35991176,-71.05142981,5385,Customer,1996,1
+285,20:51.6,25:37.4,94,Main St at Austin St,42.375603,-71.064608,129,Hayes Square - Vine St at Moulton St,42.377022,-71.056605,4924,Subscriber,1998,1
+140,21:00.4,23:20.7,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,53,Beacon St at Massachusetts Ave,42.35082681,-71.08981088,743,Subscriber,1977,1
+434,21:10.4,28:24.8,157,Seaport Blvd at Sleeper St,42.35317809,-71.04817357,40,Lewis Wharf at Atlantic Ave,42.363871,-71.050877,5652,Subscriber,1995,2
+958,21:56.6,37:54.8,98,Warren St at Chelsea St,42.371848,-71.060292,157,Seaport Blvd at Sleeper St,42.35317809,-71.04817357,3566,Subscriber,1998,1
+1564,22:04.8,48:09.1,192,Purchase St at Pearl St,42.354659,-71.053181,206,Government Center - Cambridge St at Court St,42.35980252,-71.05960783,1643,Customer,1969,0
+821,22:26.3,36:07.4,74,Harvard Square at Mass Ave/ Dunster,42.373268,-71.118579,74,Harvard Square at Mass Ave/ Dunster,42.373268,-71.118579,5158,Subscriber,1989,1
+1229,23:11.7,43:41.5,338,Commonwealth Ave at Kelton St,42.34835863,-71.13997217,91,One Kendall Square at Hampshire St / Portland St,42.366277,-71.09169,3251,Subscriber,1967,2
+1007,25:03.5,41:50.8,67,MIT at Mass Ave / Amherst St,42.3581,-71.093198,226,Commonwealth Ave At Babcock St,42.35154735,-71.12126246,2535,Customer,1995,1
+1276,25:04.6,46:21.5,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,17,Soldiers Field Park - 111 Western Ave,42.36426344,-71.1182757,2821,Subscriber,1993,2
+1314,25:14.9,47:09.9,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,17,Soldiers Field Park - 111 Western Ave,42.36426344,-71.1182757,3697,Subscriber,1993,1
+944,26:04.3,41:48.3,221,Verizon Innovation Hub 10 Ware Street,42.37250865,-71.11305356,49,Stuart St at Charles St,42.351146,-71.066289,2229,Subscriber,1983,1
+946,26:04.9,41:51.5,221,Verizon Innovation Hub 10 Ware Street,42.37250865,-71.11305356,49,Stuart St at Charles St,42.351146,-71.066289,642,Subscriber,1994,1
+934,26:21.9,41:56.1,221,Verizon Innovation Hub 10 Ware Street,42.37250865,-71.11305356,49,Stuart St at Charles St,42.351146,-71.066289,3993,Subscriber,1987,1
+1553,26:59.0,52:52.2,52,Newbury St at Hereford St,42.348717,-71.085954,428,Western Ave at Richardson St,42.36178741,-71.14393111,2274,Subscriber,1996,1
+425,27:42.3,34:47.3,49,Stuart St at Charles St,42.351146,-71.066289,352,Ring Rd,42.34827839,-71.08044855,5305,Customer,1969,0
+1225,28:37.2,49:02.5,122,Burlington Ave at Brookline Ave,42.345733,-71.100694,19,Park Dr at Buswell St,42.347241,-71.105301,4779,Subscriber,1987,1
+1070,28:39.6,46:29.7,122,Burlington Ave at Brookline Ave,42.345733,-71.100694,363,Harrison Ave at Mullins Way,42.34521562,-71.06384031,3881,Subscriber,1992,1
+207,28:47.0,32:14.8,110,Harvard University Gund Hall at Quincy St / Kirkland S,42.376369,-71.114025,79,Beacon St at Washington / Kirkland,42.37842,-71.105668,4535,Subscriber,1989,1
+737,29:23.6,41:40.7,104,Harvard University Radcliffe Quadrangle at Shepard St / Garden St,42.380287,-71.125107,99,Wilson Square,42.385582,-71.113341,5160,Subscriber,1990,1
+2951,29:49.3,19:01.2,5,Northeastern University - North Parking Lot,42.341814,-71.090179,5,Northeastern University - North Parking Lot,42.341814,-71.090179,3798,Subscriber,1962,2
+702,30:08.5,41:50.5,104,Harvard University Radcliffe Quadrangle at Shepard St / Garden St,42.380287,-71.125107,99,Wilson Square,42.385582,-71.113341,5636,Customer,1969,0
+969,30:08.9,46:18.6,370,Dartmouth St at Newbury St,42.35096144,-71.07782811,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,2804,Customer,1969,0
+930,30:12.5,45:43.0,370,Dartmouth St at Newbury St,42.35096144,-71.07782811,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,5036,Customer,1969,0
+150,30:26.5,32:57.5,150,State Street at Channel Center,42.344137,-71.052608,366,Broadway T Stop,42.34278116,-71.05747275,3857,Customer,1989,1
+1056,32:14.7,49:50.8,52,Newbury St at Hereford St,42.348717,-71.085954,73,Harvard Square at Brattle St / Eliot St,42.373231,-71.120886,3277,Subscriber,1994,2
+1122,32:25.6,51:08.2,52,Newbury St at Hereford St,42.348717,-71.085954,403,Marion St at Harvard St,42.33978053,-71.1213335,2234,Subscriber,1996,2
+536,32:29.1,41:25.7,386,Sennott Park  Broadway at Norfolk Street,42.36860524,-71.09930186,87,Harvard University Housing - 115 Putnam Ave at Peabody Terrace,42.366621,-71.114214,4674,Subscriber,1992,2
+539,32:29.2,41:28.5,386,Sennott Park  Broadway at Norfolk Street,42.36860524,-71.09930186,87,Harvard University Housing - 115 Putnam Ave at Peabody Terrace,42.366621,-71.114214,5445,Subscriber,1989,1
+316,32:40.3,37:56.6,95,Cambridge St - at Columbia St / Webster Ave,42.372969,-71.094445,177,University Park,42.36264779,-71.10006094,297,Subscriber,1990,1
+543,33:17.8,42:21.3,177,University Park,42.36264779,-71.10006094,384,Clarendon St at Newbury St,42.35155308,-71.07569031,5146,Subscriber,1986,1
+548,33:36.3,42:44.4,122,Burlington Ave at Brookline Ave,42.345733,-71.100694,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,3475,Subscriber,1996,2
+521,33:59.8,42:41.1,122,Burlington Ave at Brookline Ave,42.345733,-71.100694,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,3618,Subscriber,1991,1
+309,35:49.2,40:58.2,60,Charles Circle - Charles St at Cambridge St,42.360185,-71.07086598,384,Clarendon St at Newbury St,42.35155308,-71.07569031,4889,Subscriber,1990,1
+393,35:57.4,42:30.7,60,Charles Circle - Charles St at Cambridge St,42.360185,-71.07086598,49,Stuart St at Charles St,42.351146,-71.066289,4971,Subscriber,1997,1
+2149,36:02.1,11:51.3,271,Ashmont T Stop,42.2856944,-71.0641389,259,Washington St at Bradlee St,42.29916498,-71.07345872,3643,Customer,1969,0
+242,36:08.2,40:10.9,81,Chinatown T Stop,42.352409,-71.062679,363,Harrison Ave at Mullins Way,42.34521562,-71.06384031,4760,Subscriber,1988,1
+2163,36:12.4,12:16.0,271,Ashmont T Stop,42.2856944,-71.0641389,259,Washington St at Bradlee St,42.29916498,-71.07345872,5007,Customer,1969,0
+1595,36:17.8,02:53.5,24,Seaport Square - Seaport Blvd at Northern Ave,42.35148193,-71.04436085,194,Broadway St at Mt Pleasant St,42.38614141,-71.0782814,655,Customer,1969,0
+1012,36:27.6,53:19.6,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,12,Ruggles T Stop - Columbus Ave at Melnea Cass Blvd,42.33624445,-71.08798563,1320,Customer,1992,1
+95,36:30.5,38:06.5,176,Lesley University,42.38674802,-71.11901879,115,Porter Square Station,42.387995,-71.119084,5336,Subscriber,1983,1
+588,37:23.7,47:11.9,42,Boylston St at Arlington St,42.35205477,-71.07048687,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,4943,Subscriber,1963,2
+1124,38:06.4,56:51.3,73,Harvard Square at Brattle St / Eliot St,42.373231,-71.120886,235,East Somerville Library (Broadway and Illinois),42.38762811,-71.08318716,1072,Customer,1996,2
+179,38:23.1,41:22.6,338,Commonwealth Ave at Kelton St,42.34835863,-71.13997217,8,Union Square - Brighton Ave at Cambridge St,42.353334,-71.137313,3457,Customer,1995,1
+1434,38:42.0,02:36.1,363,Harrison Ave at Mullins Way,42.34521562,-71.06384031,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,3976,Subscriber,1995,1
+566,38:55.5,48:22.1,47,Cross St at Hanover St,42.362811,-71.056067,98,Warren St at Chelsea St,42.371848,-71.060292,1968,Customer,1991,1
+620,40:00.6,50:21.2,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,117,Binney St / Sixth St,42.36608797,-71.08633604,4871,Subscriber,1995,1
+972,40:04.3,56:16.8,33,Kenmore Square,42.348706,-71.097009,163,The Lawn on D,42.344792,-71.044024,3411,Subscriber,1998,1
+365,40:19.1,46:24.6,363,Harrison Ave at Mullins Way,42.34521562,-71.06384031,49,Stuart St at Charles St,42.351146,-71.066289,2774,Subscriber,1990,1
+890,41:27.7,56:18.3,52,Newbury St at Hereford St,42.348717,-71.085954,9,Commonwealth Ave at Agganis Way,42.35169202,-71.11903489,4449,Subscriber,2000,1
+906,41:50.1,56:56.5,412,Washington St at Peters Park,42.34303291,-71.0668873,3,Colleges of the Fenway - Fenway at Avenue Louis Pasteur,42.34011512,-71.10061884,145,Subscriber,1988,2
+718,42:23.3,54:21.9,4,Tremont St at E Berkeley St,42.345392,-71.069616,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,3339,Subscriber,1993,1
+403,42:51.1,49:35.0,89,Harvard Law School at Mass Ave / Jarvis St,42.379011,-71.119945,97,Harvard University River Houses at DeWolfe St / Cowperthwaite St,42.36919032,-71.11714125,3722,Subscriber,1989,1
+591,43:02.0,52:53.3,139,Dana Park,42.36178044,-71.10809952,377,Perry Park,42.37927325,-71.10341903,3221,Subscriber,1982,2
+1288,43:36.9,05:05.0,190,Nashua Street at Red Auerbach Way,42.365673,-71.064263,359,One Brigham Circle,42.3339227,-71.10446509,3970,Customer,1996,1
+594,43:42.2,53:36.5,108,Harvard University / SEAS Cruft-Pierce Halls at 29 Oxford St,42.377945,-71.116865,87,Harvard University Housing - 115 Putnam Ave at Peabody Terrace,42.366621,-71.114214,4769,Subscriber,1992,1
+272,43:51.8,48:24.6,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,87,Harvard University Housing - 115 Putnam Ave at Peabody Terrace,42.366621,-71.114214,2418,Subscriber,1994,1
+3599,44:24.0,44:23.7,42,Boylston St at Arlington St,42.35205477,-71.07048687,42,Boylston St at Arlington St,42.35205477,-71.07048687,5322,Customer,1994,1
+542,44:40.7,53:42.9,108,Harvard University / SEAS Cruft-Pierce Halls at 29 Oxford St,42.377945,-71.116865,87,Harvard University Housing - 115 Putnam Ave at Peabody Terrace,42.366621,-71.114214,5581,Subscriber,1992,1
+3546,44:49.0,43:55.1,42,Boylston St at Arlington St,42.35205477,-71.07048687,42,Boylston St at Arlington St,42.35205477,-71.07048687,5447,Customer,1994,1
+2361,46:16.3,25:37.7,72,One Broadway / Kendall Sq at Main St / 3rd St,42.36224179,-71.08311072,78,Union Square - Somerville,42.3796581,-71.0939428,5361,Subscriber,1996,1
+200,46:59.8,50:20.5,27,Roxbury Crossing T Stop - Columbus Ave at Tremont St,42.331184,-71.095171,12,Ruggles T Stop - Columbus Ave at Melnea Cass Blvd,42.33624445,-71.08798563,3082,Subscriber,1997,1
+1178,47:51.4,07:29.9,52,Newbury St at Hereford St,42.348717,-71.085954,105,Lower Cambridgeport at Magazine St / Riverside Rd,42.3572185,-71.11387163,5469,Subscriber,1999,1
+1447,47:54.8,12:02.0,84,CambridgeSide Galleria - CambridgeSide PL at Land Blvd,42.366981,-71.076472,74,Harvard Square at Mass Ave/ Dunster,42.373268,-71.118579,3365,Customer,2001,1
+359,48:22.1,54:21.4,404,Mass Ave T Station,42.34135616,-71.08336953,27,Roxbury Crossing T Stop - Columbus Ave at Tremont St,42.331184,-71.095171,2807,Customer,1969,0
+4067,48:36.3,56:23.3,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,20,Aquarium T Stop - 200 Atlantic Ave,42.35991176,-71.05142981,3682,Customer,1969,0
+4020,49:07.6,56:08.1,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,20,Aquarium T Stop - 200 Atlantic Ave,42.35991176,-71.05142981,4786,Customer,1969,0
+2040,51:44.0,25:44.2,404,Mass Ave T Station,42.34135616,-71.08336953,404,Mass Ave T Station,42.34135616,-71.08336953,2228,Customer,1969,0
+1358,51:56.2,14:34.8,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,90,Lechmere Station at Cambridge St / First St,42.370677,-71.076529,2742,Customer,1969,0
+3857,51:56.4,56:13.6,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,20,Aquarium T Stop - 200 Atlantic Ave,42.35991176,-71.05142981,4036,Customer,1969,0
+3952,52:11.6,58:04.0,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,20,Aquarium T Stop - 200 Atlantic Ave,42.35991176,-71.05142981,5036,Customer,1969,0
+321,52:31.1,57:52.2,100,Davis Square,42.396969,-71.123024,239,Community Path at Cedar Street,42.39407224,-71.11133695,4372,Subscriber,1991,2
+2189,52:35.3,29:04.6,138,Newmarket Square T Stop - Massachusetts Ave at Newmarket Square,42.326599,-71.066498,92,University of Massachusetts Boston - Campus Center,42.31218918,-71.03648586,3051,Customer,1969,0
+306,52:41.3,57:47.6,100,Davis Square,42.396969,-71.123024,239,Community Path at Cedar Street,42.39407224,-71.11133695,4434,Subscriber,1991,1
+1313,52:44.4,14:37.8,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,90,Lechmere Station at Cambridge St / First St,42.370677,-71.076529,5328,Subscriber,1995,1
+2206,52:44.7,29:30.9,138,Newmarket Square T Stop - Massachusetts Ave at Newmarket Square,42.326599,-71.066498,92,University of Massachusetts Boston - Campus Center,42.31218918,-71.03648586,3892,Customer,1969,0
+1347,53:22.2,15:49.8,72,One Broadway / Kendall Sq at Main St / 3rd St,42.36224179,-71.08311072,129,Hayes Square - Vine St at Moulton St,42.377022,-71.056605,4934,Subscriber,1971,1
+325,53:51.8,59:17.0,47,Cross St at Hanover St,42.362811,-71.056067,151,Surface Rd at India St,42.358155,-71.052163,3129,Customer,1980,1
+304,54:21.1,59:25.9,47,Cross St at Hanover St,42.362811,-71.056067,151,Surface Rd at India St,42.358155,-71.052163,4392,Customer,1969,0
+316,54:27.8,59:44.7,47,Cross St at Hanover St,42.362811,-71.056067,151,Surface Rd at India St,42.358155,-71.052163,2045,Customer,1969,0
+340,54:48.4,00:29.0,47,Cross St at Hanover St,42.362811,-71.056067,151,Surface Rd at India St,42.358155,-71.052163,3297,Customer,1969,0
+711,55:49.1,07:40.5,16,Back Bay T Stop - Dartmouth St at Stuart St,42.34807412,-71.07657015,177,University Park,42.36264779,-71.10006094,2766,Subscriber,1995,1
+696,56:46.9,08:23.6,75,Lafayette Square at Mass Ave / Main St / Columbia St,42.36346469,-71.10057324,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,5467,Subscriber,1962,1
+341,56:57.3,02:38.9,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,96,Cambridge Main Library at Broadway / Trowbridge St,42.373379,-71.111075,5345,Subscriber,1994,1
+336,57:03.0,02:39.5,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,96,Cambridge Main Library at Broadway / Trowbridge St,42.373379,-71.111075,3640,Subscriber,1995,1
+112,57:19.6,59:12.0,183,Alewife MBTA at Steel Place,42.39558846,-71.14260614,319,84 Cambridgepark Dr,42.3936,-71.143941,2476,Subscriber,1988,1
+182,57:48.5,00:51.1,100,Davis Square,42.396969,-71.123024,114,Teele Square,42.40203828,-71.12653291,4267,Subscriber,1995,0
+645,57:51.7,08:37.7,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,71,Conway Park - Somerville Avenue,42.383405,-71.107593,1035,Customer,1969,0
+1308,57:56.6,19:45.5,49,Stuart St at Charles St,42.351146,-71.066289,87,Harvard University Housing - 115 Putnam Ave at Peabody Terrace,42.366621,-71.114214,2774,Subscriber,1992,1
+660,58:07.8,09:08.4,361,Deerfield St at Commonwealth Ave,42.34924377,-71.0972821,9,Commonwealth Ave at Agganis Way,42.35169202,-71.11903489,5429,Customer,1969,0
+1523,00:01.8,25:25.0,15,Brighton Mills - 370 Western Ave,42.36154571,-71.13776207,19,Park Dr at Buswell St,42.347241,-71.105301,5184,Customer,1994,1
+438,00:23.2,07:41.4,400,Big Papi Station,42.34734473,-71.10016808,19,Park Dr at Buswell St,42.347241,-71.105301,4510,Subscriber,1994,1
+2447,02:14.7,43:02.6,53,Beacon St at Massachusetts Ave,42.35082681,-71.08981088,97,Harvard University River Houses at DeWolfe St / Cowperthwaite St,42.36919032,-71.11714125,4423,Customer,1969,0
+731,02:32.3,14:44.0,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,189,Kendall T,42.36242784,-71.08495474,4259,Subscriber,1986,1
+1149,02:49.4,21:59.2,95,Cambridge St - at Columbia St / Webster Ave,42.372969,-71.094445,137,Magoun Square at Trum Field,42.398365,-71.107818,3397,Subscriber,1990,1
+295,03:06.8,08:02.5,74,Harvard Square at Mass Ave/ Dunster,42.373268,-71.118579,70,Harvard Kennedy School at Bennett St / Eliot St,42.3722168,-71.12188071,5451,Subscriber,1982,1
+695,03:13.6,14:49.6,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,189,Kendall T,42.36242784,-71.08495474,5010,Subscriber,1989,2
+2057,03:19.5,37:37.5,36,Copley Square - Dartmouth St at Boylston St,42.34992828,-71.07739207,188,Foss Park,42.39108438,-71.09039426,3040,Customer,1969,0
+320,03:44.7,09:05.3,4,Tremont St at E Berkeley St,42.345392,-71.069616,57,Columbus Ave at Massachusetts Ave,42.34054262,-71.08138848,5430,Subscriber,1993,1
+441,04:18.8,11:40.3,33,Kenmore Square,42.348706,-71.097009,9,Commonwealth Ave at Agganis Way,42.35169202,-71.11903489,2408,Subscriber,1998,1
+1090,04:56.7,23:07.5,374,Tremont St at Hamilton Pl,42.35668335,-71.06166646,128,E Cottage St at Columbia Rd,42.320561,-71.06198,4258,Customer,1969,0
+896,05:45.6,20:42.0,57,Columbus Ave at Massachusetts Ave,42.34054262,-71.08138848,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,3427,Subscriber,1987,1
+775,07:15.3,20:10.6,227,Silber Way,42.349496,-71.10057592,41,Packard's Corner - Commonwealth Ave at Brighton Ave,42.352261,-71.123831,5643,Customer,1995,1
+546,07:32.8,16:39.7,333,699 Mt Auburn St,42.37500235,-71.14871614,104,Harvard University Radcliffe Quadrangle at Shepard St / Garden St,42.380287,-71.125107,4860,Subscriber,1969,1
+475,07:44.5,15:40.0,78,Union Square - Somerville,42.3796581,-71.0939428,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,5497,Customer,1969,0
+508,08:33.7,17:02.1,179,MIT Vassar St,42.35560121,-71.10394478,380,Mass Ave at Albany St,42.36135838,-71.09670274,4256,Subscriber,1994,1
+1704,09:57.1,38:21.8,345,Park Plaza at Charles St S.,42.35182807,-71.06781138,273,Forest Hills,42.300923,-71.114249,4762,Subscriber,1975,1
+3231,11:33.1,05:25.0,16,Back Bay T Stop - Dartmouth St at Stuart St,42.34807412,-71.07657015,408,Edgerly Education Center,42.38717463,-71.08714389,3677,Customer,1995,1
+1664,12:37.1,40:21.7,100,Davis Square,42.396969,-71.123024,111,Packard Ave at Powderhouse Blvd,42.40449,-71.123413,2153,Customer,1969,0
+549,12:43.9,21:53.8,14,HMS/HSPH - Avenue Louis Pasteur at Longwood Ave,42.33741748,-71.10286117,57,Columbus Ave at Massachusetts Ave,42.34054262,-71.08138848,4776,Customer,1969,0
+503,13:03.2,21:27.1,49,Stuart St at Charles St,42.351146,-71.066289,60,Charles Circle - Charles St at Cambridge St,42.360185,-71.07086598,807,Subscriber,1980,1
+501,13:15.9,21:37.7,49,Stuart St at Charles St,42.351146,-71.066289,60,Charles Circle - Charles St at Cambridge St,42.360185,-71.07086598,302,Subscriber,1983,1
+1190,14:13.1,34:03.2,44,Congress St at North St,42.36041775,-71.05752244,296,Farragut Rd at E. 6th St,42.3334,-71.02495,5524,Customer,1994,0
+648,14:13.7,25:01.8,183,Alewife MBTA at Steel Place,42.39558846,-71.14260614,112,Clarendon Hill at Broadway,42.406302,-71.132446,4264,Customer,1978,1
+353,14:50.8,20:44.3,218,Watermark Seaport - Boston Wharf Rd at Seaport Blvd,42.351586,-71.04569256,151,Surface Rd at India St,42.358155,-71.052163,979,Customer,1969,0
+59808,14:59.9,51:48.3,36,Copley Square - Dartmouth St at Boylston St,42.34992828,-71.07739207,331,Huntington Ave at Mass Art,42.33658555,-71.09886996,3208,Customer,1969,0
+1109,15:33.8,34:03.2,44,Congress St at North St,42.36041775,-71.05752244,296,Farragut Rd at E. 6th St,42.3334,-71.02495,2969,Customer,1969,0
+511,17:04.6,25:36.4,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,74,Harvard Square at Mass Ave/ Dunster,42.373268,-71.118579,5497,Subscriber,1988,1
+553,17:53.6,27:07.0,21,Prudential Center - Belvedere St,42.34652004,-71.08065777,361,Deerfield St at Commonwealth Ave,42.34924377,-71.0972821,4437,Subscriber,1996,1
+1780,20:52.0,50:32.6,53,Beacon St at Massachusetts Ave,42.35082681,-71.08981088,344,Commonwealth Ave at Chiswick Rd,42.34024645,-71.15168806,5452,Subscriber,1992,1
+28389,20:57.3,14:07.3,61,Boylston St at Fairfield St,42.348762,-71.082383,374,Tremont St at Hamilton Pl,42.35668335,-71.06166646,4681,Customer,1969,0
+568,20:59.1,30:27.4,73,Harvard Square at Brattle St / Eliot St,42.373231,-71.120886,104,Harvard University Radcliffe Quadrangle at Shepard St / Garden St,42.380287,-71.125107,2690,Customer,1998,2
+632,21:01.1,31:33.2,185,Third at Binney,42.36544486,-71.08277142,177,University Park,42.36264779,-71.10006094,5335,Subscriber,1992,1
+707,21:18.9,33:06.9,73,Harvard Square at Brattle St / Eliot St,42.373231,-71.120886,104,Harvard University Radcliffe Quadrangle at Shepard St / Garden St,42.380287,-71.125107,2059,Customer,1999,2
+846,21:19.2,35:25.8,369,Boston Public Market,42.36254854,-71.05737358,98,Warren St at Chelsea St,42.371848,-71.060292,3728,Customer,1969,0
+303,22:18.9,27:22.2,75,Lafayette Square at Mass Ave / Main St / Columbia St,42.36346469,-71.10057324,67,MIT at Mass Ave / Amherst St,42.3581,-71.093198,4408,Customer,2000,1
+676,22:37.2,33:53.7,369,Boston Public Market,42.36254854,-71.05737358,98,Warren St at Chelsea St,42.371848,-71.060292,5219,Customer,1969,0
+532,22:51.5,31:44.1,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,331,Huntington Ave at Mass Art,42.33658555,-71.09886996,3339,Subscriber,1995,1
+525,22:55.3,31:41.3,369,Boston Public Market,42.36254854,-71.05737358,98,Warren St at Chelsea St,42.371848,-71.060292,5477,Customer,1969,0
+941,23:10.3,38:51.7,44,Congress St at North St,42.36041775,-71.05752244,84,CambridgeSide Galleria - CambridgeSide PL at Land Blvd,42.366981,-71.076472,5373,Customer,1969,0
+932,23:21.8,38:54.3,44,Congress St at North St,42.36041775,-71.05752244,84,CambridgeSide Galleria - CambridgeSide PL at Land Blvd,42.366981,-71.076472,2709,Customer,1969,0
+731,23:55.5,36:06.6,342,Boylston St at Jersey St,42.34465063,-71.09732501,359,One Brigham Circle,42.3339227,-71.10446509,5496,Customer,1969,0
+494,24:08.1,32:22.3,342,Boylston St at Jersey St,42.34465063,-71.09732501,359,One Brigham Circle,42.3339227,-71.10446509,5541,Customer,1995,1
+1083,24:09.0,42:12.6,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,90,Lechmere Station at Cambridge St / First St,42.370677,-71.076529,4484,Subscriber,1980,1
+883,24:11.1,38:54.3,53,Beacon St at Massachusetts Ave,42.35082681,-71.08981088,56,Dudley Square - Dudley St at Warren St,42.32984299,-71.08386572,743,Subscriber,1977,1
+365,24:19.8,30:25.1,177,University Park,42.36264779,-71.10006094,117,Binney St / Sixth St,42.36608797,-71.08633604,2766,Subscriber,1974,1
+457,24:26.1,32:03.8,342,Boylston St at Jersey St,42.34465063,-71.09732501,359,One Brigham Circle,42.3339227,-71.10446509,3564,Customer,1998,1
+351,24:46.6,30:38.0,227,Silber Way,42.349496,-71.10057592,361,Deerfield St at Commonwealth Ave,42.34924377,-71.0972821,2201,Customer,1969,0
+875,25:54.9,40:30.4,119,South Boston Library - 646 E Broadway,42.335741,-71.03877,161,W Broadway at D St,42.3391085,-71.0514432,3695,Customer,1969,0
+883,25:55.7,40:39.3,119,South Boston Library - 646 E Broadway,42.335741,-71.03877,161,W Broadway at D St,42.3391085,-71.0514432,2992,Customer,1969,0
+816,27:02.3,40:38.9,100,Davis Square,42.396969,-71.123024,111,Packard Ave at Powderhouse Blvd,42.40449,-71.123413,3739,Customer,1969,0
+842,27:13.6,41:16.4,73,Harvard Square at Brattle St / Eliot St,42.373231,-71.120886,378,191 Beacon St,42.38032335,-71.10878613,2461,Subscriber,1993,1
+836,27:15.7,41:12.6,100,Davis Square,42.396969,-71.123024,111,Packard Ave at Powderhouse Blvd,42.40449,-71.123413,5140,Customer,1969,0
+1867,27:22.9,58:30.2,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,112,Clarendon Hill at Broadway,42.406302,-71.132446,2804,Customer,1969,0
+830,27:43.5,41:33.8,49,Stuart St at Charles St,42.351146,-71.066289,342,Boylston St at Jersey St,42.34465063,-71.09732501,642,Subscriber,1990,1
+403,28:45.1,35:28.3,361,Deerfield St at Commonwealth Ave,42.34924377,-71.0972821,52,Newbury St at Hereford St,42.348717,-71.085954,369,Customer,1969,0
+390,28:56.1,35:26.2,361,Deerfield St at Commonwealth Ave,42.34924377,-71.0972821,52,Newbury St at Hereford St,42.348717,-71.085954,2860,Customer,1969,0
+421,28:59.0,36:00.5,178,MIT Pacific St at Purrington St,42.3595732,-71.10129476,107,Ames St at Main St,42.3625,-71.08822,4173,Subscriber,1994,1
+1735,29:03.5,57:58.5,64,Congress St at Sleeper St,42.3510045,-71.04930013,90,Lechmere Station at Cambridge St / First St,42.370677,-71.076529,4384,Subscriber,1989,1
+1703,29:19.1,57:43.0,64,Congress St at Sleeper St,42.3510045,-71.04930013,90,Lechmere Station at Cambridge St / First St,42.370677,-71.076529,5501,Subscriber,1985,0
+372,29:46.9,35:59.8,178,MIT Pacific St at Purrington St,42.3595732,-71.10129476,107,Ames St at Main St,42.3625,-71.08822,5370,Subscriber,1993,1
+10061,30:24.3,18:05.5,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,3618,Customer,1973,2
+351,31:35.7,37:26.8,108,Harvard University / SEAS Cruft-Pierce Halls at 29 Oxford St,42.377945,-71.116865,87,Harvard University Housing - 115 Putnam Ave at Peabody Terrace,42.366621,-71.114214,2352,Subscriber,1991,1
+463,31:46.4,39:29.4,361,Deerfield St at Commonwealth Ave,42.34924377,-71.0972821,67,MIT at Mass Ave / Amherst St,42.3581,-71.093198,2823,Subscriber,1999,1
+1297,32:35.0,54:12.4,361,Deerfield St at Commonwealth Ave,42.34924377,-71.0972821,175,Brighton Center - Washington St at Cambridge St,42.34894857,-71.15027189,5384,Customer,1990,1
+727,33:45.4,45:52.6,67,MIT at Mass Ave / Amherst St,42.3581,-71.093198,184,Sidney Research Campus/ Erie Street at Waverly,42.35775309,-71.10393405,4408,Subscriber,1998,1
+433,34:08.9,41:22.0,177,University Park,42.36264779,-71.10006094,91,One Kendall Square at Hampshire St / Portland St,42.366277,-71.09169,297,Subscriber,1987,1
+4234,37:18.0,47:52.8,81,Chinatown T Stop,42.352409,-71.062679,392,Glendale Square (Ferry St at Broadway),42.41480161,-71.0477256,2716,Customer,1969,0
+255,37:44.5,41:59.8,47,Cross St at Hanover St,42.362811,-71.056067,40,Lewis Wharf at Atlantic Ave,42.363871,-71.050877,2348,Subscriber,1996,1
+723,37:50.3,49:54.2,380,Mass Ave at Albany St,42.36135838,-71.09670274,342,Boylston St at Jersey St,42.34465063,-71.09732501,4256,Subscriber,1983,1
+4220,37:52.6,48:13.4,81,Chinatown T Stop,42.352409,-71.062679,392,Glendale Square (Ferry St at Broadway),42.41480161,-71.0477256,2022,Customer,1969,0
+8794,38:39.2,05:13.6,51,Washington St at Lenox St,42.33509899,-71.07903779,51,Washington St at Lenox St,42.33509899,-71.07903779,3172,Customer,1969,0
+174,39:38.8,42:33.8,53,Beacon St at Massachusetts Ave,42.35082681,-71.08981088,361,Deerfield St at Commonwealth Ave,42.34924377,-71.0972821,3729,Subscriber,1998,1
+625,40:36.3,51:01.7,420,Charles St at Pinckney St,42.3587253,-71.07079532,53,Beacon St at Massachusetts Ave,42.35082681,-71.08981088,5095,Subscriber,1999,1
+1877,40:45.6,12:02.9,143,EF - North Point Park,42.369885,-71.069957,143,EF - North Point Park,42.369885,-71.069957,2747,Subscriber,1986,1
+1120,41:01.7,59:42.0,57,Columbus Ave at Massachusetts Ave,42.34054262,-71.08138848,405,Sydney St at Carson St,42.32039374,-71.05355408,3171,Customer,1969,0
+1647,41:57.4,09:24.6,113,Andrew T Stop - Dorchester Ave at Dexter St,42.33047365,-71.05701685,272,Shawmut T Stop,42.292917,-71.06575,4742,Subscriber,1967,1
+1572,43:01.8,09:14.5,151,Surface Rd at India St,42.358155,-71.052163,39,Washington St at Rutland St,42.3385146,-71.07404083,2045,Subscriber,1994,1
+654,43:33.1,54:28.1,49,Stuart St at Charles St,42.351146,-71.066289,204,Walnut Ave at Warren St,42.324081,-71.083235,2229,Customer,1969,0
+1188,44:12.3,04:00.5,49,Stuart St at Charles St,42.351146,-71.066289,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,5608,Customer,1993,1
+578,44:15.4,53:54.1,40,Lewis Wharf at Atlantic Ave,42.363871,-71.050877,280,Main St at Baldwin St,42.380857,-71.070629,2348,Customer,1969,0
+915,44:44.7,00:00.2,415,Stuart St at Berkeley St,42.34954403,-71.07242074,94,Main St at Austin St,42.375603,-71.064608,3378,Subscriber,1990,1
+1375,44:53.0,07:48.0,81,Chinatown T Stop,42.352409,-71.062679,138,Newmarket Square T Stop - Massachusetts Ave at Newmarket Square,42.326599,-71.066498,4823,Customer,1969,0
+637,45:39.5,56:16.8,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,189,Kendall T,42.36242784,-71.08495474,2845,Customer,1985,1
+543,46:53.8,55:57.1,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,189,Kendall T,42.36242784,-71.08495474,3427,Customer,1986,1
+251,47:26.1,51:37.2,386,Sennott Park  Broadway at Norfolk Street,42.36860524,-71.09930186,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,5490,Customer,1990,1
+262,47:27.2,51:49.5,386,Sennott Park  Broadway at Norfolk Street,42.36860524,-71.09930186,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,3908,Customer,1990,1
+244,47:29.0,51:33.8,386,Sennott Park  Broadway at Norfolk Street,42.36860524,-71.09930186,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,3736,Customer,1990,1
+1928,51:33.5,23:41.8,54,Tremont St at West St,42.354979,-71.063348,381,Inman Square at Springfield St.,42.37438409,-71.10015746,3958,Subscriber,1985,1
+670,51:45.0,02:55.4,138,Newmarket Square T Stop - Massachusetts Ave at Newmarket Square,42.326599,-71.066498,205,Bowdoin St at Quincy St,42.30785224,-71.06512249,4479,Customer,1969,0
+1605,51:53.0,18:39.0,331,Huntington Ave at Mass Art,42.33658555,-71.09886996,331,Huntington Ave at Mass Art,42.33658555,-71.09886996,3088,Customer,2001,1
+358,53:28.1,59:26.2,53,Beacon St at Massachusetts Ave,42.35082681,-71.08981088,67,MIT at Mass Ave / Amherst St,42.3581,-71.093198,3186,Subscriber,2000,2
+1505,53:28.9,18:34.0,331,Huntington Ave at Mass Art,42.33658555,-71.09886996,331,Huntington Ave at Mass Art,42.33658555,-71.09886996,184,Customer,2001,1
+1147,53:46.9,12:54.2,184,Sidney Research Campus/ Erie Street at Waverly,42.35775309,-71.10393405,381,Inman Square at Springfield St.,42.37438409,-71.10015746,4408,Customer,1995,1
+642,53:56.1,04:38.7,67,MIT at Mass Ave / Amherst St,42.3581,-71.093198,361,Deerfield St at Commonwealth Ave,42.34924377,-71.0972821,2823,Subscriber,2000,1
+1012,54:00.2,10:53.2,54,Tremont St at West St,42.354979,-71.063348,184,Sidney Research Campus/ Erie Street at Waverly,42.35775309,-71.10393405,5623,Subscriber,1985,1
+338,54:05.8,59:44.0,53,Beacon St at Massachusetts Ave,42.35082681,-71.08981088,67,MIT at Mass Ave / Amherst St,42.3581,-71.093198,2708,Subscriber,2001,1
+1126,54:14.8,13:01.7,8,Union Square - Brighton Ave at Cambridge St,42.353334,-71.137313,174,Washington St at Brock St,42.34895285,-71.16031677,3130,Subscriber,1996,1
+1473,54:18.6,18:52.1,331,Huntington Ave at Mass Art,42.33658555,-71.09886996,331,Huntington Ave at Mass Art,42.33658555,-71.09886996,5080,Customer,2001,1
+5697,55:54.3,30:52.3,23,Boston City Hall - 28 State St,42.35892,-71.057629,23,Boston City Hall - 28 State St,42.35892,-71.057629,2130,Customer,1969,0
+35743,55:55.9,51:39.3,23,Boston City Hall - 28 State St,42.35892,-71.057629,1,18 Dorrance Warehouse,42.387151,-71.075978,2625,Customer,1969,0
+454,56:49.4,04:23.7,87,Harvard University Housing - 115 Putnam Ave at Peabody Terrace,42.366621,-71.114214,179,MIT Vassar St,42.35560121,-71.10394478,4674,Subscriber,1993,1
+462,57:25.1,05:07.5,16,Back Bay T Stop - Dartmouth St at Stuart St,42.34807412,-71.07657015,379,Tremont St at W. Dedham St,42.34254914,-71.07421449,5051,Customer,1995,2
+270,57:26.4,01:56.7,23,Boston City Hall - 28 State St,42.35892,-71.057629,23,Boston City Hall - 28 State St,42.35892,-71.057629,4668,Customer,1969,0
+1830,57:39.3,28:10.1,409,Elm St at White St,42.38952436,-71.1169414,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,2126,Customer,1969,0
+843,57:48.4,11:51.5,409,Elm St at White St,42.38952436,-71.1169414,116,359 Broadway - Broadway at Fayette Street,42.370803,-71.104412,2596,Subscriber,1996,1
+3940,58:34.6,04:15.6,8,Union Square - Brighton Ave at Cambridge St,42.353334,-71.137313,133,Green Street T Stop - Green St at Amory St,42.310579,-71.107341,3802,Customer,1969,0
+949,58:49.5,14:39.2,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,195,Child St at North St,42.37150494,-71.07249312,3712,Customer,1990,1
+2171,58:57.6,35:09.1,8,Union Square - Brighton Ave at Cambridge St,42.353334,-71.137313,5,Northeastern University - North Parking Lot,42.341814,-71.090179,5235,Subscriber,1992,2
+369,59:02.6,05:12.0,16,Back Bay T Stop - Dartmouth St at Stuart St,42.34807412,-71.07657015,379,Tremont St at W. Dedham St,42.34254914,-71.07421449,4812,Customer,1993,1
+199,59:14.5,02:33.8,6,Cambridge St at Joy St,42.36121165,-71.0653062,47,Cross St at Hanover St,42.362811,-71.056067,5418,Subscriber,1984,1
+3560,59:31.6,58:51.8,369,Boston Public Market,42.36254854,-71.05737358,151,Surface Rd at India St,42.358155,-71.052163,4719,Customer,1969,0
+917,01:12.3,16:29.6,390,Broadway at Lynde St,42.39648358,-71.0654676,188,Foss Park,42.39108438,-71.09039426,5016,Subscriber,1986,1
+1969,01:34.7,34:24.7,33,Kenmore Square,42.348706,-71.097009,121,W Broadway at Dorchester St,42.33595898,-71.046229,2264,Customer,1992,1
+969,03:43.1,19:52.8,73,Harvard Square at Brattle St / Eliot St,42.373231,-71.120886,6,Cambridge St at Joy St,42.36121165,-71.0653062,4856,Subscriber,1984,1
+372,03:44.4,09:56.8,60,Charles Circle - Charles St at Cambridge St,42.360185,-71.07086598,189,Kendall T,42.36242784,-71.08495474,3571,Subscriber,1983,1
+374,03:46.6,10:01.2,60,Charles Circle - Charles St at Cambridge St,42.360185,-71.07086598,189,Kendall T,42.36242784,-71.08495474,2139,Subscriber,1980,1
+622,04:21.5,14:43.8,185,Third at Binney,42.36544486,-71.08277142,116,359 Broadway - Broadway at Fayette Street,42.370803,-71.104412,2842,Subscriber,1992,1
+767,05:24.9,18:12.2,377,Perry Park,42.37927325,-71.10341903,73,Harvard Square at Brattle St / Eliot St,42.373231,-71.120886,5260,Subscriber,1991,1
+911,06:31.5,21:43.1,190,Nashua Street at Red Auerbach Way,42.365673,-71.064263,95,Cambridge St - at Columbia St / Webster Ave,42.372969,-71.094445,4851,Subscriber,1992,1
+907,07:21.3,22:28.7,121,W Broadway at Dorchester St,42.33595898,-71.046229,6,Cambridge St at Joy St,42.36121165,-71.0653062,3346,Subscriber,1990,1
+1452378,08:24.3,34:42.8,227,Silber Way,42.349496,-71.10057592,1,18 Dorrance Warehouse,42.387151,-71.075978,3402,Customer,1991,1
+1016,09:03.6,25:59.9,33,Kenmore Square,42.348706,-71.097009,178,MIT Pacific St at Purrington St,42.3595732,-71.10129476,4161,Subscriber,1996,1
+983,09:15.5,25:39.2,33,Kenmore Square,42.348706,-71.097009,178,MIT Pacific St at Purrington St,42.3595732,-71.10129476,4821,Subscriber,1995,2
+730,10:03.1,22:13.6,374,Tremont St at Hamilton Pl,42.35668335,-71.06166646,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,3166,Customer,1994,1
+127275,10:43.4,31:58.8,372,Boylston St at Exeter St,42.34958942,-71.07946779,416,Blossom St at Charles St,42.36435589,-71.06959369,3064,Customer,1969,0
+135064,11:39.5,42:44.3,372,Boylston St at Exeter St,42.34958942,-71.07946779,1,18 Dorrance Warehouse,42.387151,-71.075978,2536,Customer,1969,0
+653,12:46.9,23:40.4,178,MIT Pacific St at Purrington St,42.3595732,-71.10129476,116,359 Broadway - Broadway at Fayette Street,42.370803,-71.104412,5515,Subscriber,1994,2
+642,12:47.5,23:30.5,81,Chinatown T Stop,42.352409,-71.062679,52,Newbury St at Hereford St,42.348717,-71.085954,4343,Customer,1996,1
+3376,13:12.1,09:28.9,259,Washington St at Bradlee St,42.29916498,-71.07345872,259,Washington St at Bradlee St,42.29916498,-71.07345872,3643,Customer,1969,0
+1121,13:16.1,31:57.6,143,EF - North Point Park,42.369885,-71.069957,143,EF - North Point Park,42.369885,-71.069957,2031,Subscriber,1986,1
+1739,13:49.1,42:49.0,57,Columbus Ave at Massachusetts Ave,42.34054262,-71.08138848,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,3602,Customer,1997,1
+1396,15:16.9,38:33.2,20,Aquarium T Stop - 200 Atlantic Ave,42.35991176,-71.05142981,335,Harvard St at Greene-Rose Heritage Park,42.36599433,-71.09522222,4445,Customer,1983,2
+1609,16:36.0,43:25.4,57,Columbus Ave at Massachusetts Ave,42.34054262,-71.08138848,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,2132,Customer,1997,2
+487,17:42.9,25:50.4,416,Blossom St at Charles St,42.36435589,-71.06959369,95,Cambridge St - at Columbia St / Webster Ave,42.372969,-71.094445,4783,Subscriber,1987,1
+541,18:44.7,27:46.1,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,177,University Park,42.36264779,-71.10006094,5200,Subscriber,1988,1
+1301,19:14.8,40:56.4,126,Egleston Square - Atherton St at Washington St,42.315692,-71.098634,348,Talbot Ave At Blue Hill Ave,42.2945833,-71.087111,5063,Subscriber,1995,2
+2053,19:25.2,53:39.2,119,South Boston Library - 646 E Broadway,42.335741,-71.03877,119,South Boston Library - 646 E Broadway,42.335741,-71.03877,2487,Subscriber,1985,2
+2412,19:39.0,59:51.3,33,Kenmore Square,42.348706,-71.097009,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,4137,Customer,1969,0
+368,20:00.1,26:08.1,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,74,Harvard Square at Mass Ave/ Dunster,42.373268,-71.118579,4869,Customer,1969,0
+5045,20:05.1,44:10.8,33,Kenmore Square,42.348706,-71.097009,10,B.U. Central - 725 Comm. Ave.,42.350406,-71.108279,3953,Customer,1969,0
+734,20:43.2,32:57.8,95,Cambridge St - at Columbia St / Webster Ave,42.372969,-71.094445,406,Somerville City Hall Annex,42.39189812,-71.09745376,3792,Subscriber,1998,1
+624,22:08.1,32:33.1,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,377,Perry Park,42.37927325,-71.10341903,3736,Subscriber,1987,1
+1471,22:14.4,46:46.3,369,Boston Public Market,42.36254854,-71.05737358,394,Broadway at Maple St,42.41034691,-71.05260458,4770,Customer,1984,1
+584,22:54.9,32:39.7,377,Perry Park,42.37927325,-71.10341903,77,Somerville City Hall,42.386844,-71.09812,1843,Customer,1992,1
+1514,23:06.8,48:21.3,233,St Mary's,42.34619708,-71.10728681,346,Cleveland Circle,42.33554308,-71.1506152,3153,Customer,1969,0
+1112,23:21.8,41:53.9,233,St Mary's,42.34619708,-71.10728681,346,Cleveland Circle,42.33554308,-71.1506152,4094,Customer,1969,0
+520,23:45.2,32:25.8,377,Perry Park,42.37927325,-71.10341903,77,Somerville City Hall,42.386844,-71.09812,3803,Customer,1991,1
+298,27:51.9,32:50.7,33,Kenmore Square,42.348706,-71.097009,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,5327,Subscriber,2000,1
+995,28:42.7,45:18.0,342,Boylston St at Jersey St,42.34465063,-71.09732501,226,Commonwealth Ave At Babcock St,42.35154735,-71.12126246,5132,Subscriber,1963,1
+488,28:44.8,36:53.3,73,Harvard Square at Brattle St / Eliot St,42.373231,-71.120886,377,Perry Park,42.37927325,-71.10341903,2643,Subscriber,1991,1
+1575,30:13.2,56:29.1,361,Deerfield St at Commonwealth Ave,42.34924377,-71.0972821,174,Washington St at Brock St,42.34895285,-71.16031677,5587,Customer,1969,0
+1612,33:57.5,00:50.4,33,Kenmore Square,42.348706,-71.097009,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,3061,Customer,1969,0
+414,38:09.8,45:04.2,75,Lafayette Square at Mass Ave / Main St / Columbia St,42.36346469,-71.10057324,318,Ames St at Broadway,42.3636929,-71.0875672,3850,Subscriber,1991,1
+2452,46:40.6,27:33.1,23,Boston City Hall - 28 State St,42.35892,-71.057629,390,Broadway at Lynde St,42.39648358,-71.0654676,305,Customer,1969,0
+2033,47:20.7,21:14.3,331,Huntington Ave at Mass Art,42.33658555,-71.09886996,21,Prudential Center - Belvedere St,42.34652004,-71.08065777,184,Customer,2001,2
+106,49:56.9,51:43.4,390,Broadway at Lynde St,42.39648358,-71.0654676,397,Broadway at Beacham St,42.3983606,-71.06373843,4038,Customer,1990,1
+772,50:11.9,03:04.0,342,Boylston St at Jersey St,42.34465063,-71.09732501,359,One Brigham Circle,42.3339227,-71.10446509,3109,Customer,1995,1
+758,50:32.2,03:10.6,342,Boylston St at Jersey St,42.34465063,-71.09732501,359,One Brigham Circle,42.3339227,-71.10446509,2486,Customer,1994,1
+2482,52:23.2,33:45.6,206,Government Center - Cambridge St at Court St,42.35980252,-71.05960783,23,Boston City Hall - 28 State St,42.35892,-71.057629,5310,Customer,1960,1
+3173,55:23.7,48:17.5,91,One Kendall Square at Hampshire St / Portland St,42.366277,-71.09169,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,5440,Subscriber,1982,0
+641,55:29.8,06:11.4,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,2126,Customer,1969,0
+1177,01:02.0,20:39.3,337,Roslindale Village - South St,42.287072,-71.127754,348,Talbot Ave At Blue Hill Ave,42.2945833,-71.087111,4837,Customer,1969,0
+1025,01:15.9,18:21.5,27,Roxbury Crossing T Stop - Columbus Ave at Tremont St,42.331184,-71.095171,126,Egleston Square - Atherton St at Washington St,42.315692,-71.098634,4938,Subscriber,1982,1
+2130,11:11.0,46:41.6,60,Charles Circle - Charles St at Cambridge St,42.360185,-71.07086598,179,MIT Vassar St,42.35560121,-71.10394478,2287,Customer,1969,0
+2023,12:47.3,46:30.6,107,Ames St at Main St,42.3625,-71.08822,183,Alewife MBTA at Steel Place,42.39558846,-71.14260614,4173,Subscriber,1964,1
+925,14:01.3,29:27.3,390,Broadway at Lynde St,42.39648358,-71.0654676,356,Charlestown Navy Yard,42.37412455,-71.054812,4662,Subscriber,1985,1
+20848,17:54.7,05:23.5,42,Boylston St at Arlington St,42.35205477,-71.07048687,23,Boston City Hall - 28 State St,42.35892,-71.057629,5093,Customer,1969,0
+222,19:32.8,23:15.3,160,Wentworth Institute of Technology - Huntington Ave at Vancouver St,42.33758601,-71.09627098,30,Brigham Circle - Francis St at Huntington Ave,42.33462893,-71.10407918,4664,Subscriber,1997,1
+510,28:42.5,37:13.4,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,105,Lower Cambridgeport at Magazine St / Riverside Rd,42.3572185,-71.11387163,2132,Subscriber,1996,1
+708,28:51.4,40:39.4,60,Charles Circle - Charles St at Cambridge St,42.360185,-71.07086598,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,302,Customer,1969,0
+102836,29:26.6,03:23.1,36,Copley Square - Dartmouth St at Boylston St,42.34992828,-71.07739207,35,Arch St at Franklin St,42.35533502,-71.05822917,3759,Customer,1969,0
+480249,32:14.5,56:24.1,134,Boylston St at Dartmouth St,42.350413,-71.07655,54,Tremont St at West St,42.354979,-71.063348,5344,Customer,1969,0
+441,36:13.2,43:35.0,58,Mugar Way at Beacon St,42.35553628,-71.0728687,60,Charles Circle - Charles St at Cambridge St,42.360185,-71.07086598,4415,Subscriber,1997,1
+964,37:19.8,53:24.0,105,Lower Cambridgeport at Magazine St / Riverside Rd,42.3572185,-71.11387163,378,191 Beacon St,42.38032335,-71.10878613,2125,Subscriber,1997,1
+3408,46:18.1,43:06.4,374,Tremont St at Hamilton Pl,42.35668335,-71.06166646,33,Kenmore Square,42.348706,-71.097009,5329,Customer,1969,0
+138481,46:25.0,14:26.3,393,Ferry St at Pleasantview Ave,42.40914878,-71.04597684,393,Ferry St at Pleasantview Ave,42.40914878,-71.04597684,2030,Customer,1965,1
+3394,46:31.2,43:05.6,374,Tremont St at Hamilton Pl,42.35668335,-71.06166646,33,Kenmore Square,42.348706,-71.097009,3711,Customer,1969,0
+295,51:08.1,56:03.4,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,67,MIT at Mass Ave / Amherst St,42.3581,-71.093198,3602,Subscriber,1982,0
+811,56:32.8,10:04.6,381,Inman Square at Springfield St.,42.37438409,-71.10015746,8,Union Square - Brighton Ave at Cambridge St,42.353334,-71.137313,3958,Customer,1969,0
+1826,02:15.6,32:41.8,33,Kenmore Square,42.348706,-71.097009,354,Washington St at Egremont Rd,42.34286835,-71.14127841,3476,Subscriber,1972,1
+753201,05:41.3,19:02.5,120,Beacon St at Charles St,42.356052,-71.069849,57,Columbus Ave at Massachusetts Ave,42.34054262,-71.08138848,2815,Customer,1969,0
+816,13:56.0,27:32.3,61,Boylston St at Fairfield St,42.348762,-71.082383,179,MIT Vassar St,42.35560121,-71.10394478,5426,Subscriber,2000,1
+732,21:44.6,33:56.9,361,Deerfield St at Commonwealth Ave,42.34924377,-71.0972821,9,Commonwealth Ave at Agganis Way,42.35169202,-71.11903489,2475,Customer,1998,0
+405,25:43.7,32:29.4,390,Broadway at Lynde St,42.39648358,-71.0654676,389,Everett Square (Broadway at Chelsea St),42.40725945,-71.05546381,305,Customer,1980,1
+1663,27:25.7,55:08.9,196,Roxbury YMCA - Warren St at MLK Blvd,42.31787329,-71.08243078,65,Boston Convention and Exhibition Center - Summer St at West Side Dr,42.34776345,-71.04535997,4892,Subscriber,1999,1
+1545,30:25.2,56:10.4,22,South Station - 700 Atlantic Ave,42.352175,-71.055547,33,Kenmore Square,42.348706,-71.097009,3882,Customer,1969,0
+44640,34:35.5,58:35.8,273,Forest Hills,42.300923,-71.114249,125,Hyde Square - Barbara St at Centre St,42.32176526,-71.10984161,4728,Customer,1969,0
+294,36:44.5,41:39.1,19,Park Dr at Buswell St,42.347241,-71.105301,11,Longwood Ave at Binney St,42.338629,-71.1065,2043,Subscriber,1996,1
+326,44:46.5,50:12.7,77,Somerville City Hall,42.386844,-71.09812,95,Cambridge St - at Columbia St / Webster Ave,42.372969,-71.094445,3803,Subscriber,1962,1
+515,50:51.5,59:27.0,175,Brighton Center - Washington St at Cambridge St,42.34894857,-71.15027189,149,175 N Harvard St,42.363796,-71.129164,5299,Subscriber,1993,1
+2106,00:55.1,36:01.3,159,S Huntington Ave at Heath St,42.32760387,-71.1108917,176,Lesley University,42.38674802,-71.11901879,4090,Customer,1989,0
+571,04:02.6,13:33.6,357,Centre St at Seaverns Ave,42.3121203,-71.1142981,359,One Brigham Circle,42.3339227,-71.10446509,4962,Subscriber,1992,1
+943,14:25.6,30:09.3,33,Kenmore Square,42.348706,-71.097009,374,Tremont St at Hamilton Pl,42.35668335,-71.06166646,372,Customer,1969,0
+691,15:22.2,26:53.5,377,Perry Park,42.37927325,-71.10341903,149,175 N Harvard St,42.363796,-71.129164,3736,Customer,1991,1
+512,19:47.0,28:19.9,131,Jackson Square T Stop,42.32293117,-71.10014141,12,Ruggles T Stop - Columbus Ave at Melnea Cass Blvd,42.33624445,-71.08798563,3368,Subscriber,1998,1
+502,20:07.2,28:29.6,131,Jackson Square T Stop,42.32293117,-71.10014141,12,Ruggles T Stop - Columbus Ave at Melnea Cass Blvd,42.33624445,-71.08798563,4523,Subscriber,1997,1
+1090,26:43.9,44:54.2,79,Beacon St at Washington / Kirkland,42.37842,-71.105668,52,Newbury St at Hereford St,42.348717,-71.085954,4744,Subscriber,1993,2
+609,27:57.9,38:07.7,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,53,Beacon St at Massachusetts Ave,42.35082681,-71.08981088,5263,Subscriber,1992,1
+441,30:49.8,38:11.6,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,53,Beacon St at Massachusetts Ave,42.35082681,-71.08981088,2426,Customer,1969,0
+421,37:14.8,44:16.0,234,Broadway at Central St,42.3951715,-71.09850592,194,Broadway St at Mt Pleasant St,42.38614141,-71.0782814,5414,Customer,1997,2
+578,40:19.6,49:57.7,329,Washington St at Myrtle St,42.38169983,-71.08377589,390,Broadway at Lynde St,42.39648358,-71.0654676,3937,Customer,1970,1
+1220,42:23.3,02:43.6,39,Washington St at Rutland St,42.3385146,-71.07404083,161,W Broadway at D St,42.3391085,-71.0514432,5085,Customer,1989,1
+2386,47:49.7,27:36.2,35,Arch St at Franklin St,42.35533502,-71.05822917,102,Powder House Circle - Nathan Tufts Park,42.400877,-71.116772,5502,Subscriber,1995,1
+470,50:07.9,57:58.6,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,58,Mugar Way at Beacon St,42.35553628,-71.0728687,4137,Subscriber,1998,1
+480,52:39.6,00:39.9,396,Main St at Beacon St,42.41072714,-71.06266823,390,Broadway at Lynde St,42.39648358,-71.0654676,3530,Customer,1969,0
+2028,54:37.3,28:25.7,221,Verizon Innovation Hub 10 Ware Street,42.37250865,-71.11305356,221,Verizon Innovation Hub 10 Ware Street,42.37250865,-71.11305356,5302,Subscriber,1985,2
+260,55:26.2,59:46.6,118,Linear Park - Mass. Ave. at Cameron Ave. ,42.397828,-71.130516,142,Alewife Station at Russell Field,42.396105,-71.139459,4179,Customer,1969,0
+139,00:08.6,02:28.0,116,359 Broadway - Broadway at Fayette Street,42.370803,-71.104412,381,Inman Square at Springfield St.,42.37438409,-71.10015746,2842,Subscriber,1994,1
+440,01:24.0,08:44.7,179,MIT Vassar St,42.35560121,-71.10394478,179,MIT Vassar St,42.35560121,-71.10394478,5615,Subscriber,1996,1
+1404,03:48.0,27:12.9,74,Harvard Square at Mass Ave/ Dunster,42.373268,-71.118579,81,Chinatown T Stop,42.352409,-71.062679,5497,Subscriber,1979,1
+1254,05:02.7,25:56.8,90,Lechmere Station at Cambridge St / First St,42.370677,-71.076529,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,4894,Subscriber,1993,1
+2361,07:31.8,46:53.3,417,Columbus Ave at W. Canton St,42.34474225,-71.07648162,70,Harvard Kennedy School at Bennett St / Eliot St,42.3722168,-71.12188071,5099,Subscriber,1961,1
+767,11:31.5,24:18.9,39,Washington St at Rutland St,42.3385146,-71.07404083,35,Arch St at Franklin St,42.35533502,-71.05822917,4223,Subscriber,1954,1
+170,11:48.1,14:38.4,116,359 Broadway - Broadway at Fayette Street,42.370803,-71.104412,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,2107,Subscriber,1994,1
+330,13:08.9,18:39.4,180,Mt Auburn,42.37478629,-71.13320231,74,Harvard Square at Mass Ave/ Dunster,42.373268,-71.118579,2398,Customer,1988,1
+604,14:39.4,24:43.6,338,Commonwealth Ave at Kelton St,42.34835863,-71.13997217,11,Longwood Ave at Binney St,42.338629,-71.1065,5332,Subscriber,1986,1
+750,15:01.4,27:31.7,338,Commonwealth Ave at Kelton St,42.34835863,-71.13997217,15,Brighton Mills - 370 Western Ave,42.36154571,-71.13776207,2081,Subscriber,1989,1
+245,18:42.6,22:48.2,184,Sidney Research Campus/ Erie Street at Waverly,42.35775309,-71.10393405,380,Mass Ave at Albany St,42.36135838,-71.09670274,5623,Subscriber,1996,2
+465,19:51.0,27:36.2,121,W Broadway at Dorchester St,42.33595898,-71.046229,4,Tremont St at E Berkeley St,42.345392,-71.069616,4888,Subscriber,1976,1
+1799,19:58.1,49:58.0,23,Boston City Hall - 28 State St,42.35892,-71.057629,40,Lewis Wharf at Atlantic Ave,42.363871,-71.050877,4668,Customer,1960,1
+288,23:18.1,28:07.0,179,MIT Vassar St,42.35560121,-71.10394478,380,Mass Ave at Albany St,42.36135838,-71.09670274,2575,Subscriber,1995,1
+427,25:34.3,32:41.4,69,Coolidge Corner - Beacon St at Centre St,42.341598,-71.123338,11,Longwood Ave at Binney St,42.338629,-71.1065,3360,Subscriber,1989,1
+1037,26:45.3,44:03.1,97,Harvard University River Houses at DeWolfe St / Cowperthwaite St,42.36919032,-71.11714125,361,Deerfield St at Commonwealth Ave,42.34924377,-71.0972821,2948,Subscriber,1951,1
+1547,28:39.1,54:26.6,78,Union Square - Somerville,42.3796581,-71.0939428,149,175 N Harvard St,42.363796,-71.129164,3918,Subscriber,1996,1
+339,29:38.9,35:18.6,389,Everett Square (Broadway at Chelsea St),42.40725945,-71.05546381,390,Broadway at Lynde St,42.39648358,-71.0654676,4879,Subscriber,1983,1
+147,32:17.2,34:44.4,381,Inman Square at Springfield St.,42.37438409,-71.10015746,95,Cambridge St - at Columbia St / Webster Ave,42.372969,-71.094445,3726,Subscriber,1978,1
+421,34:03.4,41:04.4,365,Harrison Ave at Bennet St,42.3494261,-71.0620996,39,Washington St at Rutland St,42.3385146,-71.07404083,4086,Subscriber,1979,1
+511,35:47.9,44:19.2,377,Perry Park,42.37927325,-71.10341903,74,Harvard Square at Mass Ave/ Dunster,42.373268,-71.118579,3381,Subscriber,1978,1
+1018,36:28.7,53:26.8,111,Packard Ave at Powderhouse Blvd,42.40449,-71.123413,78,Union Square - Somerville,42.3796581,-71.0939428,4215,Subscriber,2000,1
+479,39:22.5,47:22.1,122,Burlington Ave at Brookline Ave,42.345733,-71.100694,12,Ruggles T Stop - Columbus Ave at Melnea Cass Blvd,42.33624445,-71.08798563,2430,Customer,1999,1
+2989,40:53.7,30:43.5,427,Washington St at Denton Terr,42.28072815,-71.13423757,97,Harvard University River Houses at DeWolfe St / Cowperthwaite St,42.36919032,-71.11714125,4140,Subscriber,1977,1
+262,41:24.7,45:47.6,233,St Mary's,42.34619708,-71.10728681,33,Kenmore Square,42.348706,-71.097009,3768,Subscriber,1996,1
+389,41:59.0,48:28.7,234,Broadway at Central St,42.3951715,-71.09850592,328,Grove St at Community Path,42.39638681,-71.12011306,3189,Subscriber,1992,1
+192,42:31.4,45:43.5,107,Ames St at Main St,42.3625,-71.08822,67,MIT at Mass Ave / Amherst St,42.3581,-71.093198,5370,Subscriber,2001,1
+1158,44:11.5,03:29.9,377,Perry Park,42.37927325,-71.10341903,149,175 N Harvard St,42.363796,-71.129164,4513,Subscriber,1968,1
+1105,44:55.8,03:21.3,346,Cleveland Circle,42.33554308,-71.1506152,346,Cleveland Circle,42.33554308,-71.1506152,4731,Subscriber,1972,1
+1041,45:08.6,02:30.6,111,Packard Ave at Powderhouse Blvd,42.40449,-71.123413,95,Cambridge St - at Columbia St / Webster Ave,42.372969,-71.094445,2153,Subscriber,1995,1
+302,45:24.7,50:27.4,363,Harrison Ave at Mullins Way,42.34521562,-71.06384031,13,Boston Medical Center - E Concord St at Harrison Ave,42.33639915,-71.07306711,200,Subscriber,1977,1
+466,45:25.7,53:12.6,76,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,42.366426,-71.105495,105,Lower Cambridgeport at Magazine St / Riverside Rd,42.3572185,-71.11387163,3976,Subscriber,1998,1
+238,47:07.1,51:05.7,5,Northeastern University - North Parking Lot,42.341814,-71.090179,331,Huntington Ave at Mass Art,42.33658555,-71.09886996,3841,Subscriber,1996,1
+613,47:44.8,57:58.1,273,Forest Hills,42.300923,-71.114249,126,Egleston Square - Atherton St at Washington St,42.315692,-71.098634,4984,Customer,1994,1
+1203,49:43.4,09:46.9,67,MIT at Mass Ave / Amherst St,42.3581,-71.093198,57,Columbus Ave at Massachusetts Ave,42.34054262,-71.08138848,3602,Subscriber,2001,1
+594,50:38.6,00:33.2,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,11,Longwood Ave at Binney St,42.338629,-71.1065,4943,Subscriber,1991,2
+833,50:42.9,04:36.7,129,Hayes Square - Vine St at Moulton St,42.377022,-71.056605,81,Chinatown T Stop,42.352409,-71.062679,4820,Customer,2000,1
+2321,53:58.5,32:40.1,373,Belgrade Ave at Walworth St,42.28634589,-71.1367213,182,Museum of Science,42.36769018,-71.07116282,4374,Subscriber,1993,1
+1169,55:17.7,14:47.4,73,Harvard Square at Brattle St / Eliot St,42.373231,-71.120886,142,Alewife Station at Russell Field,42.396105,-71.139459,5260,Subscriber,1961,1
+340,55:58.6,01:38.7,391,Encore,42.39329263,-71.0724476,390,Broadway at Lynde St,42.39648358,-71.0654676,3904,Customer,1992,1
+799,56:29.6,09:49.4,149,175 N Harvard St,42.363796,-71.129164,332,Harvard Ave at Brainerd Rd,42.34953017,-71.13022771,5330,Subscriber,1996,1
+1845,56:38.2,27:23.9,41,Packard's Corner - Commonwealth Ave at Brighton Ave,42.352261,-71.123831,416,Blossom St at Charles St,42.36435589,-71.06959369,4453,Subscriber,1994,1
+1046,57:19.5,14:45.8,71,Conway Park - Somerville Avenue,42.383405,-71.107593,115,Porter Square Station,42.387995,-71.119084,3747,Subscriber,1985,1
+561,57:27.1,06:48.4,160,Wentworth Institute of Technology - Huntington Ave at Vancouver St,42.33758601,-71.09627098,61,Boylston St at Fairfield St,42.348762,-71.082383,830,Subscriber,1997,2
+216,58:27.0,02:03.2,25,South End Library - Tremont St at W Newton St,42.341332,-71.076847,13,Boston Medical Center - E Concord St at Harrison Ave,42.33639915,-71.07306711,2955,Subscriber,1988,2
+746,01:38.8,14:04.9,227,Silber Way,42.349496,-71.10057592,227,Silber Way,42.349496,-71.10057592,5092,Subscriber,1986,2
+1042,04:57.1,22:19.9,74,Harvard Square at Mass Ave/ Dunster,42.373268,-71.118579,41,Packard's Corner - Commonwealth Ave at Brighton Ave,42.352261,-71.123831,5495,Subscriber,1969,0
+733,05:16.2,17:30.1,178,MIT Pacific St at Purrington St,42.3595732,-71.10129476,97,Harvard University River Houses at DeWolfe St / Cowperthwaite St,42.36919032,-71.11714125,4103,Subscriber,1986,1
+570,07:04.6,16:35.6,39,Washington St at Rutland St,42.3385146,-71.07404083,14,HMS/HSPH - Avenue Louis Pasteur at Longwood Ave,42.33741748,-71.10286117,4048,Subscriber,1988,1
+1333,07:35.9,29:49.0,428,Western Ave at Richardson St,42.36178741,-71.14393111,68,Central Square at Mass Ave / Essex St,42.36507,-71.1031,5071,Customer,1997,1
+1511,09:23.1,34:34.4,344,Commonwealth Ave at Chiswick Rd,42.34024645,-71.15168806,344,Commonwealth Ave at Chiswick Rd,42.34024645,-71.15168806,5452,Subscriber,1955,1
+2436,10:07.4,50:43.7,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,55,Boylston St at Massachusetts Ave,42.347265,-71.088088,5327,Customer,1969,0
+324,10:37.7,16:02.1,4,Tremont St at E Berkeley St,42.345392,-71.069616,120,Beacon St at Charles St,42.356052,-71.069849,4750,Subscriber,1989,2
+629,10:42.4,21:11.6,33,Kenmore Square,42.348706,-71.097009,41,Packard's Corner - Commonwealth Ave at Brighton Ave,42.352261,-71.123831,3882,Subscriber,1995,1
+262,11:22.7,15:45.3,57,Columbus Ave at Massachusetts Ave,42.34054262,-71.08138848,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,3602,Subscriber,2001,1
+464,11:47.1,19:31.4,180,Mt Auburn,42.37478629,-71.13320231,221,Verizon Innovation Hub 10 Ware Street,42.37250865,-71.11305356,4106,Subscriber,1989,1
+4729,13:09.6,31:58.7,133,Green Street T Stop - Green St at Amory St,42.310579,-71.107341,133,Green Street T Stop - Green St at Amory St,42.310579,-71.107341,3489,Customer,1996,2
+329,13:33.7,19:03.0,338,Commonwealth Ave at Kelton St,42.34835863,-71.13997217,175,Brighton Center - Washington St at Cambridge St,42.34894857,-71.15027189,1952,Customer,1969,0
+1179,13:37.6,33:17.5,94,Main St at Austin St,42.375603,-71.064608,94,Main St at Austin St,42.375603,-71.064608,3378,Customer,1996,1
+119,13:46.8,15:45.8,173,Savin Hill T Stop - S Sydney St at Bay St,42.3106,-71.0539,173,Savin Hill T Stop - S Sydney St at Bay St,42.3106,-71.0539,3600,Customer,1969,0
+2299,14:07.7,52:27.7,173,Savin Hill T Stop - S Sydney St at Bay St,42.3106,-71.0539,22,South Station - 700 Atlantic Ave,42.352175,-71.055547,3007,Customer,1969,0
+598,16:04.7,26:03.4,352,Ring Rd,42.34827839,-71.08044855,30,Brigham Circle - Francis St at Huntington Ave,42.33462893,-71.10407918,4387,Subscriber,1965,2
+2129,16:55.9,52:25.5,173,Savin Hill T Stop - S Sydney St at Bay St,42.3106,-71.0539,22,South Station - 700 Atlantic Ave,42.352175,-71.055547,3441,Customer,1969,0
+883,17:58.1,32:41.5,225,Cambridge Dept. of Public Works -147 Hampshire St.,42.37119728,-71.09759867,406,Somerville City Hall Annex,42.39189812,-71.09745376,4070,Subscriber,1993,1
+852,18:13.5,32:25.9,225,Cambridge Dept. of Public Works -147 Hampshire St.,42.37119728,-71.09759867,406,Somerville City Hall Annex,42.39189812,-71.09745376,3859,Subscriber,1991,1
+255,18:20.1,22:36.0,179,MIT Vassar St,42.35560121,-71.10394478,178,MIT Pacific St at Purrington St,42.3595732,-71.10129476,3865,Subscriber,1995,1
+597,18:42.1,28:39.4,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.34366582,-71.08582377,227,Silber Way,42.349496,-71.10057592,3602,Subscriber,2001,1
+494,18:43.9,26:58.8,189,Kendall T,42.36242784,-71.08495474,178,MIT Pacific St at Purrington St,42.3595732,-71.10129476,3571,Subscriber,1993,1
+4344,20:36.2,33:00.3,183,Alewife MBTA at Steel Place,42.39558846,-71.14260614,183,Alewife MBTA at Steel Place,42.39558846,-71.14260614,4173,Subscriber,1961,1
+165,21:58.3,24:43.6,416,Blossom St at Charles St,42.36435589,-71.06959369,182,Museum of Science,42.36769018,-71.07116282,5650,Subscriber,1982,1
+1844,22:51.7,53:36.1,120,Beacon St at Charles St,42.356052,-71.069849,69,Coolidge Corner - Beacon St at Centre St,42.341598,-71.123338,5542,Subscriber,1987,1
+292,23:20.1,28:12.2,338,Commonwealth Ave at Kelton St,42.34835863,-71.13997217,226,Commonwealth Ave At Babcock St,42.35154735,-71.12126246,4847,Subscriber,1995,1
+18725,26:15.6,38:21.1,17,Soldiers Field Park - 111 Western Ave,42.36426344,-71.1182757,61,Boylston St at Fairfield St,42.348762,-71.082383,5460,Subscriber,1989,2
+904,27:00.0,42:04.1,378,191 Beacon St,42.38032335,-71.10878613,416,Blossom St at Charles St,42.36435589,-71.06959369,4121,Subscriber,1986,1
+402,27:10.5,33:52.8,66,Allston Green District - Griggs St at Commonwealth Ave,42.34922469,-71.13275303,69,Coolidge Corner - Beacon St at Centre St,42.341598,-71.123338,4673,Subscriber,1993,1
+1001,28:12.9,44:54.0,40,Lewis Wharf at Atlantic Ave,42.363871,-71.050877,146,Murphy Skating Rink - 1880 Day Blvd,42.336448,-71.023739,5259,Subscriber,1991,1
+369,29:13.5,35:23.1,360,Bartlett St at John Elliot Sq,42.3294633,-71.0901582,5,Northeastern University - North Parking Lot,42.341814,-71.090179,4087,Subscriber,1992,1
+491,29:31.3,37:42.8,47,Cross St at Hanover St,42.362811,-71.056067,22,South Station - 700 Atlantic Ave,42.352175,-71.055547,5611,Subscriber,1958,2
+1865,29:38.5,00:43.7,416,Blossom St at Charles St,42.36435589,-71.06959369,41,Packard's Corner - Commonwealth Ave at Brighton Ave,42.352261,-71.123831,4453,Subscriber,1994,1
+488,32:08.5,40:16.8,36,Copley Square - Dartmouth St at Boylston St,42.34992828,-71.07739207,21,Prudential Center - Belvedere St,42.34652004,-71.08065777,3757,Subscriber,1979,1
+198,32:40.6,35:58.9,31,Seaport Hotel - Congress St at Seaport Ln,42.34881026,-71.04167744,218,Watermark Seaport - Boston Wharf Rd at Seaport Blvd,42.351586,-71.04569256,2691,Customer,1991,1
+294,32:58.0,37:52.7,130,Upham's Corner,42.31727474,-71.06537004,113,Andrew T Stop - Dorchester Ave at Dexter St,42.33047365,-71.05701685,4844,Subscriber,1994,1
+1507,33:08.6,58:16.4,23,Boston City Hall - 28 State St,42.35892,-71.057629,387,Norman St at Kelvin St,42.40581172,-71.06708851,5246,Subscriber,1993,1
+475,33:19.8,41:14.9,13,Boston Medical Center - E Concord St at Harrison Ave,42.33639915,-71.07306711,363,Harrison Ave at Mullins Way,42.34521562,-71.06384031,2955,Subscriber,1988,2
+443,34:10.2,41:33.5,189,Kendall T,42.36242784,-71.08495474,53,Beacon St at Massachusetts Ave,42.35082681,-71.08981088,3427,Subscriber,1985,1
+361,35:14.3,41:16.3,16,Back Bay T Stop - Dartmouth St at Stuart St,42.34807412,-71.07657015,25,South End Library - Tremont St at W Newton St,42.341332,-71.076847,4928,Subscriber,1989,1
+1133,36:41.8,55:35.7,118,Linear Park - Mass. Ave. at Cameron Ave. ,42.397828,-71.130516,180,Mt Auburn,42.37478629,-71.13320231,3919,Subscriber,1971,1
+249,36:55.7,41:04.9,60,Charles Circle - Charles St at Cambridge St,42.360185,-71.07086598,49,Stuart St at Charles St,42.351146,-71.066289,4710,Subscriber,1988,2
+2510,36:58.5,18:49.4,54,Tremont St at West St,42.354979,-71.063348,74,Harvard Square at Mass Ave/ Dunster,42.373268,-71.118579,5394,Customer,1958,1
+1286,37:54.3,59:20.7,178,MIT Pacific St at Purrington St,42.3595732,-71.10129476,22,South Station - 700 Atlantic Ave,42.352175,-71.055547,5479,Subscriber,1995,1
+473,38:17.9,46:11.8,239,Community Path at Cedar Street,42.39407224,-71.11133695,118,Linear Park - Mass. Ave. at Cameron Ave. ,42.397828,-71.130516,4890,Subscriber,1989,1
+889,38:51.3,53:40.5,409,Elm St at White St,42.38952436,-71.1169414,189,Kendall T,42.36242784,-71.08495474,5554,Subscriber,1988,1
+910,39:34.9,54:45.2,175,Brighton Center - Washington St at Cambridge St,42.34894857,-71.15027189,227,Silber Way,42.349496,-71.10057592,3417,Customer,1989,1
+198,40:25.6,43:44.0,87,Harvard University Housing - 115 Putnam Ave at Peabody Terrace,42.366621,-71.114214,74,Harvard Square at Mass Ave/ Dunster,42.373268,-71.118579,2091,Subscriber,1987,1
+1786,41:23.4,11:09.6,190,Nashua Street at Red Auerbach Way,42.365673,-71.064263,146,Murphy Skating Rink - 1880 Day Blvd,42.336448,-71.023739,4957,Subscriber,1983,2

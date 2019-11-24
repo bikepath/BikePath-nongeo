@@ -1,14 +1,18 @@
 from mesa import Agent
 import networkx as nx
+from datetime import datetime
 
 
 class Rider(Agent):
-    def __init__(self, unique_id, node, model, start_station, destination, start_time, end_time, bike=None):
+    def __init__(self, unique_id, node, model, start_station, destination, start_time, end_time, speed=20, bike=None, birthyear=0, gender=0):
         super().__init__(unique_id, model)
         self.node = node
         self.start_station = start_station
         self.destination = destination
         self.wait_count = 0
+        self.speed = speed  # set speed here based on duration?
+        self.birthyear = birthyear
+        self.gender = gender
 
         try:
             self.path = nx.shortest_path(model.G, start_station.node, destination.node)
@@ -17,8 +21,8 @@ class Rider(Agent):
             self.path = []
             print("No path")
 
-        self.start_time = start_time
-        self.end_time = end_time
+        self.start_time = datetime(start_time)
+        self.end_time = datetime(end_time)
         self.bike = bike
 
     def move(self):
@@ -44,7 +48,7 @@ class Rider(Agent):
 
         if self.bike:
 
-            # TODO: Also keep track of start/stop times
+            # keep track of *speed*
 
             if self.pos == self.destination.pos:
 
@@ -87,14 +91,12 @@ class Bike(Agent):
         self.rider = None
         self.dockless = dockless
 
-    def move(self):
-
-        if self.rider:
-            pass  # the rider will move the bike
-            # self.model.grid.move_agent(self, self.rider.path[0])
+    def rebalance(self):
+        pass
+        # Rebalance by going to another station
 
     def step(self):
-        self.move()
+        self.rebalance()
 
 
 class Station(Agent):
@@ -103,7 +105,6 @@ class Station(Agent):
         self.node = node
         self.capacity = capacity
         self.num_bikes = num_bikes
-        self.id = id
         self.outage = False
         self.bikes_here = []
 

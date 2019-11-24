@@ -1,7 +1,32 @@
 from collections import defaultdict
+from datetime import datetime, timedelta
+from mesa.time import BaseScheduler, RandomActivation
+from agents import Rider, Bike
 
-from mesa.time import RandomActivation
 
+class TimedActivation(BaseScheduler):
+
+    def __init__(self,
+                 model,
+                 start_time,
+                 end_time,
+                 timestep=timedelta(minutes=5)):
+        super().__init__(model)
+        self.start_time = datetime.strptime(start_time)
+        self.end_time = datetime.strptime(end_time)
+        self.timestep = timestep
+
+    def step(self):
+        # Schedule for bikes - redistribution
+        # Schedule for riders - moving them around
+        for agent in self._agents:
+            if type(agent) == Bike:
+                pass  # redistribution
+
+            elif type(agent) == Rider:
+                # the only thing this should do is trigger bikes if they should start I think
+                if agent.start_time >= self.start_time:  # only trigger if time has passed
+                    agent.step()
 
 class RandomActivationByBreed(RandomActivation):
     '''
