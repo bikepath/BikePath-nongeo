@@ -52,10 +52,11 @@ var LeafletModule = function (view, zoom, map_width, map_height) {
       for (var j = nodes[i].agents.length; j >= 0; j--){
         switch(nodes[i].agents[j]){
           case "Rider":
+            console.log(nodes[i]);
             L.marker([nodes[i]['lat'], nodes[i]['long']], 
               {
                   icon: riderIcon,
-              }).addTo(agents).bindPopup(`<b>${nodes[i].agents[j]}</b></br>${nodes[i]['lat']}, ${nodes[i]['long']}`);
+              }).addTo(agents).bindPopup(`<b>${nodes[i].agents[j]}</b></br>${nodes[i]['start_time']}`);
             break;
           case "Bike":
             L.marker([nodes[i]['lat'], nodes[i]['long']], 

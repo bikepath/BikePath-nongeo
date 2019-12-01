@@ -9,6 +9,7 @@ import csv
 import json
 import osmnx as ox
 import networkx as nx
+from datetime import datetime
 
 
 class BikePath(Model):
@@ -22,8 +23,10 @@ class BikePath(Model):
         self.num_bikes = num_bikes
         self.num_riders = num_riders
         self.place = place
+        self.cur_time = "10/01/19 0:00:00"
 
-        self.schedule = TimedActivation(self)
+        # hard coded for now
+        self.schedule = TimedActivation(self, "10/01/19 0:00:00", "10/02/19 14:00:00")
 
         if 'Quincy' in place:
             self.G = ox.graph_from_file('data/quincy.osm')
@@ -88,7 +91,7 @@ class BikePath(Model):
 
             i = 0
 
-            with open('data/201909-bluebikes-tripdata-SMALL.csv') as csvfile:
+            with open('data/201910-bluebikes-tripdata-sampled.csv') as csvfile:
 
                 spamreader = csv.reader(csvfile)
 
@@ -103,6 +106,7 @@ class BikePath(Model):
 
                     if start is None or end is None:
                         print("Station not found", i)
+                        i += 1
                         continue
 
                     starttime = row[1]
@@ -113,6 +117,8 @@ class BikePath(Model):
                     except nx.exception.NetworkXNoPath as _:
                         print("Station not in scope")
                         speed = 5
+                        i += 1
+                        continue
 
                     r = Rider(i, start.node, self, start, end, starttime, endtime, speed=speed, birthyear=int(row[13]), gender=int(row[14]))
                     self.grid.place_agent(r, start.node)
@@ -158,10 +164,11 @@ class BikePath(Model):
 
     def step(self):
         self.schedule.step()
+        self.cur_time = self.schedule.cur_time
         # collect data
         self.datacollector.collect(self)
         if self.verbose:
-            print([self.schedule.time,
+            print([self.cur_time,
                    self.schedule.get_breed_count(Rider)])
 
     def run_model(self, step_count=200):

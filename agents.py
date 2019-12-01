@@ -21,8 +21,8 @@ class Rider(Agent):
             self.path = []
             print("No path")
 
-        self.start_time = datetime(start_time)
-        self.end_time = datetime(end_time)
+        self.start_time = datetime.strptime(start_time, "%m/%d/%y %H:%M:%S")
+        self.end_time = datetime.strptime(end_time, "%m/%d/%y %H:%M:%S")
         self.bike = bike
 
     def move(self):
@@ -72,7 +72,7 @@ class Rider(Agent):
                 self.bike = b
                 self.wait_count = 0
             else:
-                if self.wait_count >= 10:
+                if self.wait_count >= 3: # 15 min (5 min timestep)
                     self.model.missed_rides += 1
                     self.model.grid._remove_agent(self, self.pos)
                     self.model.schedule.remove(self)

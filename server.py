@@ -1,6 +1,5 @@
 from mesa.visualization.ModularVisualization import ModularServer
 from mesa.visualization.modules import ChartModule
-
 from mesa.visualization.UserParam import UserSettableParameter
 
 from LeafletVisualization.LeafletModule import LeafletModule
@@ -61,7 +60,7 @@ model_params = {
     "place": "Boston, MA",
     "num_bikes": UserSettableParameter("slider", "Number of Bikes", 500, 100, 2000, 1),
     "num_riders": UserSettableParameter("slider", "Number of Riders", 500, 100, 2000, 1),
-    "place_name": UserSettableParameter("static_text", value="Boston, MA")
+    "place_name": UserSettableParameter("static_text", value="Boston, MA"),
 }
 
 server = ModularServer(BikePath, [leaflet_element, chart_element, chart_element_rides], "BikePath", model_params)

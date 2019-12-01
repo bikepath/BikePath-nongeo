@@ -12,21 +12,68 @@ class TimedActivation(BaseScheduler):
                  end_time,
                  timestep=timedelta(minutes=5)):
         super().__init__(model)
-        self.start_time = datetime.strptime(start_time)
-        self.end_time = datetime.strptime(end_time)
+        self.agents_by_breed = defaultdict(dict)
+        self.start_time = datetime.strptime(start_time, "%m/%d/%y %H:%M:%S")
+        self.end_time = datetime.strptime(end_time, "%m/%d/%y %H:%M:%S")
+        self.cur_time = self.start_time
         self.timestep = timestep
+
+    def add(self, agent):
+        '''
+        Add an Agent object to the schedule
+
+        Args:
+            agent: An Agent to be added to the schedule.
+        '''
+
+        self._agents[agent.unique_id] = agent
+        agent_class = type(agent)
+        self.agents_by_breed[agent_class][agent.unique_id] = agent
+
+    def remove(self, agent):
+        '''
+        Remove all instances of a given agent from the schedule.
+        '''
+
+        del self._agents[agent.unique_id]
+
+        agent_class = type(agent)
+        del self.agents_by_breed[agent_class][agent.unique_id]
 
     def step(self):
         # Schedule for bikes - redistribution
         # Schedule for riders - moving them around
-        for agent in self._agents:
-            if type(agent) == Bike:
-                pass  # redistribution
+        print(len(self.agents_by_breed[Rider]))
+        print("step schedule")
+        rider_keys = list(self.agents_by_breed[Rider].keys())
 
-            elif type(agent) == Rider:
-                # the only thing this should do is trigger bikes if they should start I think
-                if agent.start_time >= self.start_time:  # only trigger if time has passed
-                    agent.step()
+        for rider in rider_keys:
+            if self.agents_by_breed[Rider][rider].start_time <= self.cur_time:  # only trigger if time has passed
+                print(self.agents_by_breed[Rider][rider].start_time)
+                self.agents_by_breed[Rider][rider].step()
+
+        # for agent in agent_keys:
+        #     if type(self._agents[agent]) == Bike:
+        #         self._agents[agent].rebalance()
+
+        #     elif type(self._agents[agent]) == Rider:
+        #         # the only thing this should do is trigger bikes if they should start I think
+        #         print("step", self._agents[agent].start_time, self._agents[agent].start_time <= self.cur_time)
+        #         if self._agents[agent].start_time <= self.cur_time:  # only trigger if time has passed
+        #             print(self._agents[agent].start_time)
+        #             self._agents[agent].step()
+
+        self.steps += 1
+        self.time += 1
+        self.cur_time += self.timestep
+        print(self.cur_time)
+
+    def get_breed_count(self, breed_class):
+        '''
+        Returns the current number of agents of certain breed in the queue.
+        '''
+        return len(self.agents_by_breed[breed_class].values())
+
 
 class RandomActivationByBreed(RandomActivation):
     '''
