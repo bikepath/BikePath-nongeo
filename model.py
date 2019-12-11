@@ -9,7 +9,6 @@ import csv
 import json
 import osmnx as ox
 import networkx as nx
-from datetime import datetime
 
 
 class BikePath(Model):
